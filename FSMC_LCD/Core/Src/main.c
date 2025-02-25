@@ -16,6 +16,7 @@
   ******************************************************************************
   */
 #include "bsp.h"
+#include "images.h"	
 
 void SystemClock_Config(void);
 
