@@ -21,7 +21,7 @@
 
 #define BSP_Printf      printf
 
-#include "main.h"
+#include <main.h>
 #include <stdio.h>
 #include <string.h>
 

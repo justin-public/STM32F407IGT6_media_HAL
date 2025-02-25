@@ -16,7 +16,9 @@
   ******************************************************************************
   */
 #include "bsp.h"
-#include "images.h"	
+#include "images.h"
+#include "main_enum.h"
+
 
 void SystemClock_Config(void);
 
