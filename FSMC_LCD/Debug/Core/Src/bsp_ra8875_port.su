@@ -1,0 +1,2 @@
+../Core/Src/bsp_ra8875_port.c:89:6:RA8875_WriteCmd	16	static
+../Core/Src/bsp_ra8875_port.c:102:6:RA8875_WriteData	16	static

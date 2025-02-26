@@ -18,6 +18,7 @@
 #include "bsp.h"
 #include "images.h"
 #include "main_enum.h"
+#include "main_menu.h"
 
 
 void SystemClock_Config(void);

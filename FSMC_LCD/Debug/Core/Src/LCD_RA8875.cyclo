@@ -1,0 +1,7 @@
+../Core/Src/LCD_RA8875.c:36:13:BTE_SetTarBlock	2
+../Core/Src/LCD_RA8875.c:68:13:BTE_Start	1
+../Core/Src/LCD_RA8875.c:84:13:BTE_Wait	2
+../Core/Src/LCD_RA8875.c:99:13:BTE_SetOperateCode	1
+../Core/Src/LCD_RA8875.c:120:6:RA8875_ClrScr	1
+../Core/Src/LCD_RA8875.c:151:6:RA8875_SetFrontColor	1
+../Core/Src/LCD_RA8875.c:158:13:RA8875_WriteReg	1

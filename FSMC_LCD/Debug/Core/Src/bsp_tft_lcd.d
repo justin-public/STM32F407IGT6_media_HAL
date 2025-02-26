@@ -1,5 +1,5 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/bsp.h ../Core/Inc/main.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+Core/Src/bsp_tft_lcd.o: ../Core/Src/bsp_tft_lcd.c ../Core/Inc/bsp.h \
+ ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -25,8 +25,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/bsp.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Core/Inc/LCD_RA8875.h ../Core/Inc/bsp_tft_lcd.h \
- ../Core/Inc/bsp_ra8875_port.h ../Core/Inc/images.h \
- ../Core/Inc/main_enum.h ../Core/Inc/main_menu.h
+ ../Core/Inc/bsp_ra8875_port.h ../Core/Inc/fonts.h
 ../Core/Inc/bsp.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -57,6 +56,4 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/bsp.h ../Core/Inc/main.h \
 ../Core/Inc/LCD_RA8875.h:
 ../Core/Inc/bsp_tft_lcd.h:
 ../Core/Inc/bsp_ra8875_port.h:
-../Core/Inc/images.h:
-../Core/Inc/main_enum.h:
-../Core/Inc/main_menu.h:
+../Core/Inc/fonts.h:

@@ -1,3 +1,6 @@
+"./Core/Src/LCD_RA8875.o"
+"./Core/Src/bsp_ra8875_port.o"
+"./Core/Src/bsp_tft_lcd.o"
 "./Core/Src/main.o"
 "./Core/Src/main_menu.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

@@ -35,6 +35,10 @@
 
 #define DEBUG_GPS_TO_COM1    /* Print GPS data to UART1 */
 
+#include "LCD_RA8875.h"
+#include "bsp_tft_lcd.h"
+#include "bsp_ra8875_port.h"
+
 /* Function prototypes */
 void bsp_Init(void);
 void bsp_Idle(void);

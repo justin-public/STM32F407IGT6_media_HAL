@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "main_enum.h": "c"
+        "main_enum.h": "c",
+        "main_menu.h": "c"
     }
 }

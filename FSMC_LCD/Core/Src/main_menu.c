@@ -108,3 +108,49 @@ enum
                         ICON18_W	= ICON_WIDTH,	
 };
 
+#define STYLE_COUNT			7		
+
+typedef struct
+{
+	uint16_t *pBmp;			
+	uint16_t BackColor;		
+	uint16_t TextColor;		
+}STYLE_T;
+
+static const STYLE_T s_UI480[STYLE_COUNT] =
+{
+    {0,					CL_WHITE,			CL_BLACK},
+    {0,					RGB(0,78,152),		CL_WHITE},	
+	{0,					RGB(185,193,204),	CL_BLACK},		
+	{0,					RGB(38,38,38),		CL_WHITE},
+
+};
+
+static uint16_t s_ColorIndex = 0;
+
+static void DispBackground(void);
+
+uint8_t MainMenu(void)
+{
+    uint8_t ucKeyCode;		
+	uint8_t ucTouch;		
+	uint8_t fRefresh;		
+    FONT_T tFont;
+	FONT_T tIconFont;
+
+    int16_t tpX, tpY;
+	uint16_t i;
+
+    DispBackground();
+}
+
+static void DispBackground(void)
+{
+    if (g_LcdWidth == 480)
+    {
+        if (s_UI480[s_ColorIndex].pBmp == 0)
+        {
+            LCD_ClrScr(s_UI480[s_ColorIndex].BackColor);
+        }
+    }
+}
