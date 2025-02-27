@@ -1,0 +1,3 @@
+../Core/BSP/LCD_RA8875.c:14:6:RA8875_ClrScr	16	static
+../Core/BSP/LCD_RA8875.c:19:13:BTE_SetTarBlock	16	static
+../Core/BSP/LCD_RA8875.c:24:13:RA8875_WriteReg	16	static
