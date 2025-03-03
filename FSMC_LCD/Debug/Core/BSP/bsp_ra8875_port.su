@@ -1,0 +1,3 @@
+../Core/BSP/bsp_ra8875_port.c:86:6:RA8875_WriteCmd	16	static
+../Core/BSP/bsp_ra8875_port.c:99:6:RA8875_WriteData	16	static
+../Core/BSP/bsp_ra8875_port.c:113:9:RA8875_ReadStatus	16	static

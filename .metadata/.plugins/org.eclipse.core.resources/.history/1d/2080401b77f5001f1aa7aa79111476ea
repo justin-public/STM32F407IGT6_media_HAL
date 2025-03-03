@@ -1,0 +1,13 @@
+/*
+ * usb_conf.h
+ *
+ *  Created on: Feb 28, 2025
+ *      Author: compro
+ */
+
+#ifndef USBH_MASS_STORAGE_USB_CONF_H_
+#define USBH_MASS_STORAGE_USB_CONF_H_
+
+
+
+#endif /* USBH_MASS_STORAGE_USB_CONF_H_ */

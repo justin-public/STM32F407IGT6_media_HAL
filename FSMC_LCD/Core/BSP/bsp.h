@@ -43,6 +43,8 @@
 #include "LCD_RA8875.h"
 #include "bsp_ra8875_port.h"
 #include "LCD_SPFD5420.h"
+#include "bsp_key.h"
+#include "bsp_led.h"
 
 void bsp_Init(void);
 void bsp_Idle(void);

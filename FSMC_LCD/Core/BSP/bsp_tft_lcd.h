@@ -60,10 +60,45 @@ typedef struct
 	uint16_t Space;		
 }FONT_T;
 
+typedef enum
+{
+	FC_ST_16 = 0,		
+	FC_ST_12 = 1		
+}FONT_CODE_E;
+
+typedef struct
+{
+	uint8_t id;
+	uint16_t Left;		
+	uint16_t Top;		
+	uint16_t Height;	
+	uint16_t Width;		
+	uint16_t *pBmp;		
+	char  Text[16];	
+}ICON_T;
+
+typedef enum
+{
+	ID_ICON		= 1,
+	ID_WIN		= 2,
+	ID_LABEL	= 3,
+	ID_BUTTON	= 4,
+	ID_CHECK 	= 5,
+	ID_EDIT 	= 6,
+	ID_GROUP 	= 7,
+}CONTROL_ID_T;
+
+
+
 extern uint16_t g_ChipID;			
 extern uint16_t g_LcdHeight;		
 extern uint16_t g_LcdWidth;			
 
 void LCD_ClrScr(uint16_t _usColor);
+void LCD_DrawBMP(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t *_ptr);
+uint16_t LCD_GetWidth(void);
+uint16_t LCD_GetHeight(void);
+uint16_t LCD_GetPixel(uint16_t _usX, uint16_t _usY);
+void LCD_DrawIcon32(const ICON_T *_tIcon, FONT_T *_tFont, uint8_t _ucFocusMode);
 
 #endif /* BSP_BSP_TFT_LCD_H_ */

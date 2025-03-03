@@ -1,0 +1,18 @@
+/*
+ * ff.h
+ *
+ *  Created on: Feb 28, 2025
+ *      Author: compro
+ */
+
+#ifndef FATFS_FF_H_
+#define FATFS_FF_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "integer.h"	/* Basic integer types */
+#include "ffconf.h"		/* FatFs configuration options */
+
+#endif /* FATFS_FF_H_ */

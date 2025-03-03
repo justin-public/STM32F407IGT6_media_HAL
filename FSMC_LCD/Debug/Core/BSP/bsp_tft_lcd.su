@@ -1,1 +1,6 @@
-../Core/BSP/bsp_tft_lcd.c:12:6:LCD_ClrScr	16	static
+../Core/BSP/bsp_tft_lcd.c:12:10:LCD_GetWidth	4	static
+../Core/BSP/bsp_tft_lcd.c:17:10:LCD_GetHeight	4	static
+../Core/BSP/bsp_tft_lcd.c:22:6:LCD_ClrScr	16	static
+../Core/BSP/bsp_tft_lcd.c:34:6:LCD_DrawBMP	32	static
+../Core/BSP/bsp_tft_lcd.c:46:10:Blend565	24	static
+../Core/BSP/bsp_tft_lcd.c:57:6:LCD_DrawIcon32	48	static

@@ -25,7 +25,9 @@ Core/Src/main_menu.o: ../Core/Src/main_menu.c ../Core/BSP/bsp.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Core/BSP/bsp_tft_lcd.h ../Core/BSP/LCD_RA8875.h \
- ../Core/Images/images.h ../Core/Inc/main_enum.h ../Core/Inc/main_menu.h
+ ../Core/BSP/bsp_ra8875_port.h ../Core/BSP/LCD_SPFD5420.h \
+ ../Core/BSP/bsp_key.h ../Core/BSP/bsp_led.h ../Core/Images/images.h \
+ ../Core/Inc/main_enum.h ../Core/Inc/main_menu.h
 ../Core/BSP/bsp.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -55,6 +57,10 @@ Core/Src/main_menu.o: ../Core/Src/main_menu.c ../Core/BSP/bsp.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Core/BSP/bsp_tft_lcd.h:
 ../Core/BSP/LCD_RA8875.h:
+../Core/BSP/bsp_ra8875_port.h:
+../Core/BSP/LCD_SPFD5420.h:
+../Core/BSP/bsp_key.h:
+../Core/BSP/bsp_led.h:
 ../Core/Images/images.h:
 ../Core/Inc/main_enum.h:
 ../Core/Inc/main_menu.h:

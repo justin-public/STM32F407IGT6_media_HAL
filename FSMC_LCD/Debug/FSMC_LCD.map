@@ -6,6 +6,10 @@ C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+                              ./Core/Src/bmp_file.o (printf)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+                              ./Core/Src/bmp_file.o (sprintf)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__sread)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
@@ -15,7 +19,7 @@ C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o) (errno)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
-                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o) (_impure_ptr)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o) (_impure_ptr)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_lseek_r)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
@@ -28,16 +32,46 @@ C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+                              ./Core/BSP/bsp_tft_lcd.o (strlen)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o) (_free_r)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_malloc_r)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o) (__malloc_lock)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o) (_svfprintf_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o) (_vfprintf_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o) (_printf_i)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fflush_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o) (__sfvwrite_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o) (__swbuf_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o) (__swsetup_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o) (memmove)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
                               C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o) (memchr)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o) (memcpy)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o) (_realloc_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o) (__smakebuf_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o) (_fstat_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o) (_isatty_r)
+C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+                              C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
                               ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o (__aeabi_uldivmod)
 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
@@ -127,24 +161,46 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./Core/BSP/LCD_RA8875.o
  .group         0x0000000000000000        0xc ./Core/BSP/LCD_RA8875.o
  .group         0x0000000000000000        0xc ./Core/BSP/LCD_RA8875.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_RA8875.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_RA8875.o
  .text          0x0000000000000000        0x0 ./Core/BSP/LCD_RA8875.o
  .data          0x0000000000000000        0x0 ./Core/BSP/LCD_RA8875.o
  .bss           0x0000000000000000        0x0 ./Core/BSP/LCD_RA8875.o
  .bss.s_ucRA8875Busy
                 0x0000000000000000        0x1 ./Core/BSP/LCD_RA8875.o
+ .bss.s_WinX    0x0000000000000000        0x2 ./Core/BSP/LCD_RA8875.o
+ .bss.s_WinY    0x0000000000000000        0x2 ./Core/BSP/LCD_RA8875.o
+ .data.s_WinHeight
+                0x0000000000000000        0x2 ./Core/BSP/LCD_RA8875.o
+ .data.s_WinWidth
+                0x0000000000000000        0x2 ./Core/BSP/LCD_RA8875.o
  .text.RA8875_ClrScr
-                0x0000000000000000       0x16 ./Core/BSP/LCD_RA8875.o
+                0x0000000000000000       0x50 ./Core/BSP/LCD_RA8875.o
  .text.BTE_SetTarBlock
-                0x0000000000000000       0x28 ./Core/BSP/LCD_RA8875.o
+                0x0000000000000000       0xb4 ./Core/BSP/LCD_RA8875.o
  .text.RA8875_WriteReg
-                0x0000000000000000       0x28 ./Core/BSP/LCD_RA8875.o
- .debug_info    0x0000000000000000      0x173 ./Core/BSP/LCD_RA8875.o
- .debug_abbrev  0x0000000000000000       0x99 ./Core/BSP/LCD_RA8875.o
+                0x0000000000000000       0x38 ./Core/BSP/LCD_RA8875.o
+ .text.RA8875_SetFrontColor
+                0x0000000000000000       0x48 ./Core/BSP/LCD_RA8875.o
+ .text.RA8875_DrawBMP
+                0x0000000000000000       0x36 ./Core/BSP/LCD_RA8875.o
+ .text.RA8875_SetDispWin
+                0x0000000000000000       0xe4 ./Core/BSP/LCD_RA8875.o
+ .text.RA8875_SetCursor
+                0x0000000000000000       0x50 ./Core/BSP/LCD_RA8875.o
+ .text.BTE_SetOperateCode
+                0x0000000000000000       0x1c ./Core/BSP/LCD_RA8875.o
+ .text.BTE_Start
+                0x0000000000000000       0x20 ./Core/BSP/LCD_RA8875.o
+ .text.BTE_Wait
+                0x0000000000000000       0x24 ./Core/BSP/LCD_RA8875.o
+ .debug_info    0x0000000000000000      0x36e ./Core/BSP/LCD_RA8875.o
+ .debug_abbrev  0x0000000000000000      0x123 ./Core/BSP/LCD_RA8875.o
  .debug_aranges
-                0x0000000000000000       0x30 ./Core/BSP/LCD_RA8875.o
+                0x0000000000000000       0x68 ./Core/BSP/LCD_RA8875.o
  .debug_rnglists
-                0x0000000000000000       0x1f ./Core/BSP/LCD_RA8875.o
- .debug_macro   0x0000000000000000      0x2e3 ./Core/BSP/LCD_RA8875.o
+                0x0000000000000000       0x4b ./Core/BSP/LCD_RA8875.o
+ .debug_macro   0x0000000000000000      0x309 ./Core/BSP/LCD_RA8875.o
  .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/LCD_RA8875.o
  .debug_macro   0x0000000000000000       0x28 ./Core/BSP/LCD_RA8875.o
  .debug_macro   0x0000000000000000      0x28f ./Core/BSP/LCD_RA8875.o
@@ -205,27 +261,733 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 ./Core/BSP/LCD_RA8875.o
  .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_RA8875.o
  .debug_macro   0x0000000000000000       0x22 ./Core/BSP/LCD_RA8875.o
- .debug_line    0x0000000000000000      0x8c6 ./Core/BSP/LCD_RA8875.o
- .debug_str     0x0000000000000000    0xbe319 ./Core/BSP/LCD_RA8875.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/LCD_RA8875.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/LCD_RA8875.o
+ .debug_line    0x0000000000000000      0xa30 ./Core/BSP/LCD_RA8875.o
+ .debug_str     0x0000000000000000    0xbe718 ./Core/BSP/LCD_RA8875.o
  .comment       0x0000000000000000       0x44 ./Core/BSP/LCD_RA8875.o
- .debug_frame   0x0000000000000000       0x88 ./Core/BSP/LCD_RA8875.o
+ .debug_frame   0x0000000000000000      0x178 ./Core/BSP/LCD_RA8875.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/BSP/LCD_RA8875.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/LCD_SPFD5420.o
+ .text          0x0000000000000000        0x0 ./Core/BSP/LCD_SPFD5420.o
+ .data          0x0000000000000000        0x0 ./Core/BSP/LCD_SPFD5420.o
+ .bss           0x0000000000000000        0x0 ./Core/BSP/LCD_SPFD5420.o
+ .text.SPFD5420_ClrScr
+                0x0000000000000000       0x5c ./Core/BSP/LCD_SPFD5420.o
+ .text.SPFD5420_SetCursor
+                0x0000000000000000       0x38 ./Core/BSP/LCD_SPFD5420.o
+ .text.SPFD5420_WriteReg
+                0x0000000000000000       0x30 ./Core/BSP/LCD_SPFD5420.o
+ .debug_info    0x0000000000000000      0x15c ./Core/BSP/LCD_SPFD5420.o
+ .debug_abbrev  0x0000000000000000       0xc5 ./Core/BSP/LCD_SPFD5420.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./Core/BSP/LCD_SPFD5420.o
+ .debug_rnglists
+                0x0000000000000000       0x1f ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x2dc ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/LCD_SPFD5420.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/LCD_SPFD5420.o
+ .debug_line    0x0000000000000000      0x8ff ./Core/BSP/LCD_SPFD5420.o
+ .debug_str     0x0000000000000000    0xbe338 ./Core/BSP/LCD_SPFD5420.o
+ .comment       0x0000000000000000       0x44 ./Core/BSP/LCD_SPFD5420.o
+ .debug_frame   0x0000000000000000       0x80 ./Core/BSP/LCD_SPFD5420.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/BSP/LCD_SPFD5420.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
  .group         0x0000000000000000        0xc ./Core/BSP/bsp.o
  .text          0x0000000000000000        0x0 ./Core/BSP/bsp.o
  .data          0x0000000000000000        0x0 ./Core/BSP/bsp.o
  .bss           0x0000000000000000        0x0 ./Core/BSP/bsp.o
- .debug_info    0x0000000000000000       0x22 ./Core/BSP/bsp.o
- .debug_abbrev  0x0000000000000000       0x12 ./Core/BSP/bsp.o
+ .text.bsp_Idle
+                0x0000000000000000       0x28 ./Core/BSP/bsp.o
+ .bss.s_file_no.0
+                0x0000000000000000        0x2 ./Core/BSP/bsp.o
+ .debug_info    0x0000000000000000      0x1c5 ./Core/BSP/bsp.o
+ .debug_abbrev  0x0000000000000000       0xbb ./Core/BSP/bsp.o
  .debug_aranges
-                0x0000000000000000       0x18 ./Core/BSP/bsp.o
- .debug_macro   0x0000000000000000       0x11 ./Core/BSP/bsp.o
+                0x0000000000000000       0x20 ./Core/BSP/bsp.o
+ .debug_rnglists
+                0x0000000000000000       0x13 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x309 ./Core/BSP/bsp.o
  .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/bsp.o
- .debug_line    0x0000000000000000       0x32 ./Core/BSP/bsp.o
- .debug_str     0x0000000000000000     0x2db8 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/bsp.o
+ .debug_line    0x0000000000000000      0x8e2 ./Core/BSP/bsp.o
+ .debug_str     0x0000000000000000    0xbe709 ./Core/BSP/bsp.o
  .comment       0x0000000000000000       0x44 ./Core/BSP/bsp.o
+ .debug_frame   0x0000000000000000       0x2c ./Core/BSP/bsp.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/BSP/bsp.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_key.o
+ .text          0x0000000000000000        0x0 ./Core/BSP/bsp_key.o
+ .data          0x0000000000000000        0x0 ./Core/BSP/bsp_key.o
+ .bss           0x0000000000000000        0x0 ./Core/BSP/bsp_key.o
+ .bss.s_tKey    0x0000000000000000        0xd ./Core/BSP/bsp_key.o
+ .text.bsp_GetKey2
+                0x0000000000000000       0x50 ./Core/BSP/bsp_key.o
+ .debug_info    0x0000000000000000      0x1ec ./Core/BSP/bsp_key.o
+ .debug_abbrev  0x0000000000000000       0xd9 ./Core/BSP/bsp_key.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./Core/BSP/bsp_key.o
+ .debug_rnglists
+                0x0000000000000000       0x13 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x309 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_key.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/bsp_key.o
+ .debug_line    0x0000000000000000      0x904 ./Core/BSP/bsp_key.o
+ .debug_str     0x0000000000000000    0xbe6f9 ./Core/BSP/bsp_key.o
+ .comment       0x0000000000000000       0x44 ./Core/BSP/bsp_key.o
+ .debug_frame   0x0000000000000000       0x38 ./Core/BSP/bsp_key.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/BSP/bsp_key.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_led.o
+ .text          0x0000000000000000        0x0 ./Core/BSP/bsp_led.o
+ .data          0x0000000000000000        0x0 ./Core/BSP/bsp_led.o
+ .bss           0x0000000000000000        0x0 ./Core/BSP/bsp_led.o
+ .text.bsp_LedOn
+                0x0000000000000000       0x68 ./Core/BSP/bsp_led.o
+ .text.bsp_LedOff
+                0x0000000000000000       0x64 ./Core/BSP/bsp_led.o
+ .debug_info    0x0000000000000000      0x1ab ./Core/BSP/bsp_led.o
+ .debug_abbrev  0x0000000000000000       0xde ./Core/BSP/bsp_led.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./Core/BSP/bsp_led.o
+ .debug_rnglists
+                0x0000000000000000       0x19 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x33f ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_led.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/bsp_led.o
+ .debug_line    0x0000000000000000      0x95e ./Core/BSP/bsp_led.o
+ .debug_str     0x0000000000000000    0xbe701 ./Core/BSP/bsp_led.o
+ .comment       0x0000000000000000       0x44 ./Core/BSP/bsp_led.o
+ .debug_frame   0x0000000000000000       0x60 ./Core/BSP/bsp_led.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/BSP/bsp_led.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_ra8875_port.o
+ .text          0x0000000000000000        0x0 ./Core/BSP/bsp_ra8875_port.o
+ .data          0x0000000000000000        0x0 ./Core/BSP/bsp_ra8875_port.o
+ .bss           0x0000000000000000        0x0 ./Core/BSP/bsp_ra8875_port.o
+ .text.RA8875_WriteCmd
+                0x0000000000000000       0x24 ./Core/BSP/bsp_ra8875_port.o
+ .text.RA8875_WriteData
+                0x0000000000000000       0x20 ./Core/BSP/bsp_ra8875_port.o
+ .text.RA8875_ReadStatus
+                0x0000000000000000       0x20 ./Core/BSP/bsp_ra8875_port.o
+ .debug_info    0x0000000000000000      0x137 ./Core/BSP/bsp_ra8875_port.o
+ .debug_abbrev  0x0000000000000000       0xaf ./Core/BSP/bsp_ra8875_port.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./Core/BSP/bsp_ra8875_port.o
+ .debug_rnglists
+                0x0000000000000000       0x1f ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x321 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_ra8875_port.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/bsp_ra8875_port.o
+ .debug_line    0x0000000000000000      0x929 ./Core/BSP/bsp_ra8875_port.o
+ .debug_str     0x0000000000000000    0xbe6be ./Core/BSP/bsp_ra8875_port.o
+ .comment       0x0000000000000000       0x44 ./Core/BSP/bsp_ra8875_port.o
+ .debug_frame   0x0000000000000000       0x88 ./Core/BSP/bsp_ra8875_port.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/BSP/bsp_ra8875_port.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_tft_lcd.o
+ .group         0x0000000000000000        0xc ./Core/BSP/bsp_tft_lcd.o
  .group         0x0000000000000000        0xc ./Core/BSP/bsp_tft_lcd.o
  .group         0x0000000000000000        0xc ./Core/BSP/bsp_tft_lcd.o
  .group         0x0000000000000000        0xc ./Core/BSP/bsp_tft_lcd.o
@@ -292,15 +1054,25 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./Core/BSP/bsp_tft_lcd.o
  .data.g_LcdWidth
                 0x0000000000000000        0x2 ./Core/BSP/bsp_tft_lcd.o
+ .text.LCD_GetWidth
+                0x0000000000000000       0x18 ./Core/BSP/bsp_tft_lcd.o
+ .text.LCD_GetHeight
+                0x0000000000000000       0x18 ./Core/BSP/bsp_tft_lcd.o
  .text.LCD_ClrScr
-                0x0000000000000000       0x28 ./Core/BSP/bsp_tft_lcd.o
- .debug_info    0x0000000000000000      0x117 ./Core/BSP/bsp_tft_lcd.o
- .debug_abbrev  0x0000000000000000       0xca ./Core/BSP/bsp_tft_lcd.o
+                0x0000000000000000       0x30 ./Core/BSP/bsp_tft_lcd.o
+ .text.LCD_DrawBMP
+                0x0000000000000000       0x44 ./Core/BSP/bsp_tft_lcd.o
+ .text.Blend565
+                0x0000000000000000       0x68 ./Core/BSP/bsp_tft_lcd.o
+ .text.LCD_DrawIcon32
+                0x0000000000000000      0x2c0 ./Core/BSP/bsp_tft_lcd.o
+ .debug_info    0x0000000000000000      0x5bc ./Core/BSP/bsp_tft_lcd.o
+ .debug_abbrev  0x0000000000000000      0x1f6 ./Core/BSP/bsp_tft_lcd.o
  .debug_aranges
-                0x0000000000000000       0x20 ./Core/BSP/bsp_tft_lcd.o
+                0x0000000000000000       0x48 ./Core/BSP/bsp_tft_lcd.o
  .debug_rnglists
-                0x0000000000000000       0x13 ./Core/BSP/bsp_tft_lcd.o
- .debug_macro   0x0000000000000000      0x2ec ./Core/BSP/bsp_tft_lcd.o
+                0x0000000000000000       0x32 ./Core/BSP/bsp_tft_lcd.o
+ .debug_macro   0x0000000000000000      0x312 ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000      0xaa8 ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000       0x28 ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000      0x28f ./Core/BSP/bsp_tft_lcd.o
@@ -361,13 +1133,564 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000       0x22 ./Core/BSP/bsp_tft_lcd.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/BSP/bsp_tft_lcd.o
+ .debug_macro   0x0000000000000000       0xca ./Core/BSP/bsp_tft_lcd.o
  .debug_macro   0x0000000000000000       0x16 ./Core/BSP/bsp_tft_lcd.o
- .debug_line    0x0000000000000000      0x8c2 ./Core/BSP/bsp_tft_lcd.o
- .debug_str     0x0000000000000000    0xbe32c ./Core/BSP/bsp_tft_lcd.o
+ .debug_line    0x0000000000000000      0xaf8 ./Core/BSP/bsp_tft_lcd.o
+ .debug_str     0x0000000000000000    0xbe8a8 ./Core/BSP/bsp_tft_lcd.o
  .comment       0x0000000000000000       0x44 ./Core/BSP/bsp_tft_lcd.o
- .debug_frame   0x0000000000000000       0x34 ./Core/BSP/bsp_tft_lcd.o
+ .debug_frame   0x0000000000000000       0xec ./Core/BSP/bsp_tft_lcd.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./Core/BSP/bsp_tft_lcd.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/diskio.o
+ .text          0x0000000000000000        0x0 ./Core/FatFS/diskio.o
+ .data          0x0000000000000000        0x0 ./Core/FatFS/diskio.o
+ .bss           0x0000000000000000        0x0 ./Core/FatFS/diskio.o
+ .debug_info    0x0000000000000000       0x77 ./Core/FatFS/diskio.o
+ .debug_abbrev  0x0000000000000000       0x28 ./Core/FatFS/diskio.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x312 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/FatFS/diskio.o
+ .debug_macro   0x0000000000000000       0xca ./Core/FatFS/diskio.o
+ .debug_line    0x0000000000000000      0x8e2 ./Core/FatFS/diskio.o
+ .debug_str     0x0000000000000000    0xbe590 ./Core/FatFS/diskio.o
+ .comment       0x0000000000000000       0x44 ./Core/FatFS/diskio.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/FatFS/diskio.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/ff.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/ff.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/ff.o
+ .group         0x0000000000000000        0xc ./Core/FatFS/ff.o
+ .text          0x0000000000000000        0x0 ./Core/FatFS/ff.o
+ .data          0x0000000000000000        0x0 ./Core/FatFS/ff.o
+ .bss           0x0000000000000000        0x0 ./Core/FatFS/ff.o
+ .bss.FatFs     0x0000000000000000        0xc ./Core/FatFS/ff.o
+ .bss.Fsid      0x0000000000000000        0x2 ./Core/FatFS/ff.o
+ .bss.Files     0x0000000000000000       0x24 ./Core/FatFS/ff.o
+ .debug_info    0x0000000000000000      0x230 ./Core/FatFS/ff.o
+ .debug_abbrev  0x0000000000000000       0xaf ./Core/FatFS/ff.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/FatFS/ff.o
+ .debug_macro   0x0000000000000000      0x286 ./Core/FatFS/ff.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/FatFS/ff.o
+ .debug_macro   0x0000000000000000       0x95 ./Core/FatFS/ff.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/FatFS/ff.o
+ .debug_macro   0x0000000000000000       0xee ./Core/FatFS/ff.o
+ .debug_line    0x0000000000000000       0x60 ./Core/FatFS/ff.o
+ .debug_str     0x0000000000000000     0x3a09 ./Core/FatFS/ff.o
+ .comment       0x0000000000000000       0x44 ./Core/FatFS/ff.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/FatFS/ff.o
+ .group         0x0000000000000000        0xc ./Core/Images/ADC.o
+ .text          0x0000000000000000        0x0 ./Core/Images/ADC.o
+ .data          0x0000000000000000        0x0 ./Core/Images/ADC.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/ADC.o
+ .rodata.acADC  0x0000000000000000     0x2437 ./Core/Images/ADC.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/ADC.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/ADC.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/ADC.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/ADC.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/ADC.o
+ .debug_line    0x0000000000000000       0x35 ./Core/Images/ADC.o
+ .debug_str     0x0000000000000000     0x2ddc ./Core/Images/ADC.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/ADC.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/ADC.o
+ .group         0x0000000000000000        0xc ./Core/Images/Camera.o
+ .text          0x0000000000000000        0x0 ./Core/Images/Camera.o
+ .data          0x0000000000000000        0x0 ./Core/Images/Camera.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/Camera.o
+ .rodata.acCamera
+                0x0000000000000000     0x2437 ./Core/Images/Camera.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/Camera.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/Camera.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/Camera.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/Camera.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/Camera.o
+ .debug_line    0x0000000000000000       0x38 ./Core/Images/Camera.o
+ .debug_str     0x0000000000000000     0x2de2 ./Core/Images/Camera.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/Camera.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/Camera.o
+ .group         0x0000000000000000        0xc ./Core/Images/ChiLun.o
+ .text          0x0000000000000000        0x0 ./Core/Images/ChiLun.o
+ .data          0x0000000000000000        0x0 ./Core/Images/ChiLun.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/ChiLun.o
+ .rodata.acChiLun
+                0x0000000000000000     0x2437 ./Core/Images/ChiLun.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/ChiLun.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/ChiLun.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/ChiLun.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/ChiLun.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/ChiLun.o
+ .debug_line    0x0000000000000000       0x38 ./Core/Images/ChiLun.o
+ .debug_str     0x0000000000000000     0x2de2 ./Core/Images/ChiLun.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/ChiLun.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/ChiLun.o
+ .group         0x0000000000000000        0xc ./Core/Images/GPS.o
+ .text          0x0000000000000000        0x0 ./Core/Images/GPS.o
+ .data          0x0000000000000000        0x0 ./Core/Images/GPS.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/GPS.o
+ .rodata.acGPS  0x0000000000000000     0x2437 ./Core/Images/GPS.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/GPS.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/GPS.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/GPS.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/GPS.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/GPS.o
+ .debug_line    0x0000000000000000       0x35 ./Core/Images/GPS.o
+ .debug_str     0x0000000000000000     0x2ddc ./Core/Images/GPS.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/GPS.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/GPS.o
+ .group         0x0000000000000000        0xc ./Core/Images/LCD.o
+ .text          0x0000000000000000        0x0 ./Core/Images/LCD.o
+ .data          0x0000000000000000        0x0 ./Core/Images/LCD.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/LCD.o
+ .rodata.acLCD  0x0000000000000000     0x2437 ./Core/Images/LCD.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/LCD.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/LCD.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/LCD.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/LCD.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/LCD.o
+ .debug_line    0x0000000000000000       0x35 ./Core/Images/LCD.o
+ .debug_str     0x0000000000000000     0x2ddc ./Core/Images/LCD.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/LCD.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/LCD.o
+ .group         0x0000000000000000        0xc ./Core/Images/MP3.o
+ .text          0x0000000000000000        0x0 ./Core/Images/MP3.o
+ .data          0x0000000000000000        0x0 ./Core/Images/MP3.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/MP3.o
+ .rodata.acMP3  0x0000000000000000     0x2437 ./Core/Images/MP3.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/MP3.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/MP3.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/MP3.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/MP3.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/MP3.o
+ .debug_line    0x0000000000000000       0x35 ./Core/Images/MP3.o
+ .debug_str     0x0000000000000000     0x2ddc ./Core/Images/MP3.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/MP3.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/MP3.o
+ .group         0x0000000000000000        0xc ./Core/Images/Phone.o
+ .text          0x0000000000000000        0x0 ./Core/Images/Phone.o
+ .data          0x0000000000000000        0x0 ./Core/Images/Phone.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/Phone.o
+ .rodata.acPhone
+                0x0000000000000000     0x2437 ./Core/Images/Phone.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/Phone.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/Phone.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/Phone.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/Phone.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/Phone.o
+ .debug_line    0x0000000000000000       0x37 ./Core/Images/Phone.o
+ .debug_str     0x0000000000000000     0x2de0 ./Core/Images/Phone.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/Phone.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/Phone.o
+ .group         0x0000000000000000        0xc ./Core/Images/Recorder.o
+ .text          0x0000000000000000        0x0 ./Core/Images/Recorder.o
+ .data          0x0000000000000000        0x0 ./Core/Images/Recorder.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/Recorder.o
+ .rodata.acRecorder
+                0x0000000000000000     0x2437 ./Core/Images/Recorder.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/Recorder.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/Recorder.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/Recorder.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/Recorder.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/Recorder.o
+ .debug_line    0x0000000000000000       0x3a ./Core/Images/Recorder.o
+ .debug_str     0x0000000000000000     0x2de6 ./Core/Images/Recorder.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/Recorder.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/Recorder.o
+ .group         0x0000000000000000        0xc ./Core/Images/USBDisk.o
+ .text          0x0000000000000000        0x0 ./Core/Images/USBDisk.o
+ .data          0x0000000000000000        0x0 ./Core/Images/USBDisk.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/USBDisk.o
+ .rodata.acUSBDisk
+                0x0000000000000000     0x2437 ./Core/Images/USBDisk.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/USBDisk.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/USBDisk.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/USBDisk.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/USBDisk.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/USBDisk.o
+ .debug_line    0x0000000000000000       0x39 ./Core/Images/USBDisk.o
+ .debug_str     0x0000000000000000     0x2de4 ./Core/Images/USBDisk.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/USBDisk.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/USBDisk.o
+ .group         0x0000000000000000        0xc ./Core/Images/Wireless.o
+ .text          0x0000000000000000        0x0 ./Core/Images/Wireless.o
+ .data          0x0000000000000000        0x0 ./Core/Images/Wireless.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/Wireless.o
+ .rodata.acWireless
+                0x0000000000000000     0x2437 ./Core/Images/Wireless.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/Wireless.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/Wireless.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/Wireless.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/Wireless.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/Wireless.o
+ .debug_line    0x0000000000000000       0x3a ./Core/Images/Wireless.o
+ .debug_str     0x0000000000000000     0x2de6 ./Core/Images/Wireless.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/Wireless.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/Wireless.o
+ .group         0x0000000000000000        0xc ./Core/Images/chujiao.o
+ .text          0x0000000000000000        0x0 ./Core/Images/chujiao.o
+ .data          0x0000000000000000        0x0 ./Core/Images/chujiao.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/chujiao.o
+ .rodata.acchujiao
+                0x0000000000000000     0x2437 ./Core/Images/chujiao.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/chujiao.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/chujiao.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/chujiao.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/chujiao.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/chujiao.o
+ .debug_line    0x0000000000000000       0x39 ./Core/Images/chujiao.o
+ .debug_str     0x0000000000000000     0x2de4 ./Core/Images/chujiao.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/chujiao.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/chujiao.o
+ .group         0x0000000000000000        0xc ./Core/Images/hwinfo.o
+ .text          0x0000000000000000        0x0 ./Core/Images/hwinfo.o
+ .data          0x0000000000000000        0x0 ./Core/Images/hwinfo.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/hwinfo.o
+ .rodata.achwinfo
+                0x0000000000000000     0x2437 ./Core/Images/hwinfo.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/hwinfo.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/hwinfo.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/hwinfo.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/hwinfo.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/hwinfo.o
+ .debug_line    0x0000000000000000       0x38 ./Core/Images/hwinfo.o
+ .debug_str     0x0000000000000000     0x2de2 ./Core/Images/hwinfo.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/hwinfo.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/hwinfo.o
+ .group         0x0000000000000000        0xc ./Core/Images/radio.o
+ .text          0x0000000000000000        0x0 ./Core/Images/radio.o
+ .data          0x0000000000000000        0x0 ./Core/Images/radio.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/radio.o
+ .rodata.acRadio
+                0x0000000000000000     0x2437 ./Core/Images/radio.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/radio.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/radio.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/radio.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/radio.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/radio.o
+ .debug_line    0x0000000000000000       0x37 ./Core/Images/radio.o
+ .debug_str     0x0000000000000000     0x2de0 ./Core/Images/radio.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/radio.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/radio.o
+ .group         0x0000000000000000        0xc ./Core/Images/web.o
+ .text          0x0000000000000000        0x0 ./Core/Images/web.o
+ .data          0x0000000000000000        0x0 ./Core/Images/web.o
+ .bss           0x0000000000000000        0x0 ./Core/Images/web.o
+ .rodata.acweb  0x0000000000000000     0x2437 ./Core/Images/web.o
+ .debug_info    0x0000000000000000       0x5e ./Core/Images/web.o
+ .debug_abbrev  0x0000000000000000       0x49 ./Core/Images/web.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Images/web.o
+ .debug_macro   0x0000000000000000       0x11 ./Core/Images/web.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Images/web.o
+ .debug_line    0x0000000000000000       0x35 ./Core/Images/web.o
+ .debug_str     0x0000000000000000     0x2ddc ./Core/Images/web.o
+ .comment       0x0000000000000000       0x44 ./Core/Images/web.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Images/web.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/bmp_file.o
+ .text          0x0000000000000000        0x0 ./Core/Src/bmp_file.o
+ .data          0x0000000000000000        0x0 ./Core/Src/bmp_file.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/bmp_file.o
+ .text.MakeBmpHeader
+                0x0000000000000000       0x9c ./Core/Src/bmp_file.o
+ .rodata        0x0000000000000000       0x53 ./Core/Src/bmp_file.o
+ .text.SaveScreenToBmp
+                0x0000000000000000      0x250 ./Core/Src/bmp_file.o
+ .debug_info    0x0000000000000000      0x6c4 ./Core/Src/bmp_file.o
+ .debug_abbrev  0x0000000000000000      0x1a4 ./Core/Src/bmp_file.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./Core/Src/bmp_file.o
+ .debug_rnglists
+                0x0000000000000000       0x1b ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x33f ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x95 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0xee ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x28f ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x2f ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000     0x102d ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000    0x15e82 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000     0x367e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x96b ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x9fe ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x13e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x287 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x5f ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x12c ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x21e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x11a ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x7e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x89 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x12d ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x2a ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x369 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x177 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000      0x147 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/bmp_file.o
+ .debug_macro   0x0000000000000000       0xca ./Core/Src/bmp_file.o
+ .debug_line    0x0000000000000000      0xaaf ./Core/Src/bmp_file.o
+ .debug_str     0x0000000000000000    0xbeeaf ./Core/Src/bmp_file.o
+ .comment       0x0000000000000000       0x44 ./Core/Src/bmp_file.o
+ .debug_frame   0x0000000000000000       0x64 ./Core/Src/bmp_file.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Src/bmp_file.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
@@ -491,6 +1814,10 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xca ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main_menu.o
+ .group         0x0000000000000000        0xc ./Core/Src/main_menu.o
  .group         0x0000000000000000        0xc ./Core/Src/main_menu.o
  .group         0x0000000000000000        0xc ./Core/Src/main_menu.o
  .group         0x0000000000000000        0xc ./Core/Src/main_menu.o
@@ -555,21 +1882,26 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Core/Src/main_menu.o
  .data          0x0000000000000000        0x0 ./Core/Src/main_menu.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main_menu.o
+ .rodata.s_tMainIcons
+                0x0000000000000000      0x240 ./Core/Src/main_menu.o
  .rodata.s_UI480
+                0x0000000000000000       0x38 ./Core/Src/main_menu.o
+ .rodata.s_UI800
                 0x0000000000000000       0x38 ./Core/Src/main_menu.o
  .bss.s_ColorIndex
                 0x0000000000000000        0x2 ./Core/Src/main_menu.o
+ .rodata        0x0000000000000000       0x15 ./Core/Src/main_menu.o
  .text.MainMenu
-                0x0000000000000000       0x14 ./Core/Src/main_menu.o
+                0x0000000000000000       0xec ./Core/Src/main_menu.o
  .text.DispBackground
-                0x0000000000000000       0x40 ./Core/Src/main_menu.o
- .debug_info    0x0000000000000000      0x2d4 ./Core/Src/main_menu.o
- .debug_abbrev  0x0000000000000000      0x137 ./Core/Src/main_menu.o
+                0x0000000000000000       0xb4 ./Core/Src/main_menu.o
+ .debug_info    0x0000000000000000      0x6e6 ./Core/Src/main_menu.o
+ .debug_abbrev  0x0000000000000000      0x1a7 ./Core/Src/main_menu.o
  .debug_aranges
                 0x0000000000000000       0x28 ./Core/Src/main_menu.o
  .debug_rnglists
-                0x0000000000000000       0x19 ./Core/Src/main_menu.o
- .debug_macro   0x0000000000000000      0x306 ./Core/Src/main_menu.o
+                0x0000000000000000       0x1b ./Core/Src/main_menu.o
+ .debug_macro   0x0000000000000000      0x351 ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000      0xaa8 ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000       0x28 ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000      0x28f ./Core/Src/main_menu.o
@@ -630,9 +1962,11 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main_menu.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main_menu.o
+ .debug_macro   0x0000000000000000       0xca ./Core/Src/main_menu.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main_menu.o
- .debug_line    0x0000000000000000      0x90c ./Core/Src/main_menu.o
- .debug_str     0x0000000000000000    0xbe4ae ./Core/Src/main_menu.o
+ .debug_line    0x0000000000000000      0xa44 ./Core/Src/main_menu.o
+ .debug_str     0x0000000000000000    0xbec04 ./Core/Src/main_menu.o
  .comment       0x0000000000000000       0x44 ./Core/Src/main_menu.o
  .debug_frame   0x0000000000000000       0x54 ./Core/Src/main_menu.o
  .ARM.attributes
@@ -2700,6 +4034,24 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
  .ARM.attributes
                 0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x1c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .text.printf   0x0000000000000000       0x24 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .debug_frame   0x0000000000000000       0x6c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .text._sprintf_r
+                0x0000000000000000       0x38 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .text.sprintf  0x0000000000000000       0x40 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .debug_frame   0x0000000000000000       0x6c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sprintf.o)
  .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
  .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
@@ -2818,6 +4170,11 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xb0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
  .ARM.attributes
                 0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text          0x0000000000000000       0x10 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000000       0x17 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
  .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
  .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
@@ -2849,6 +4206,50 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x30 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
  .ARM.attributes
                 0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text.__ssputs_r
+                0x0000000000000000       0xb4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000       0xfa C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .rodata._svfprintf_r.str1.1
+                0x0000000000000000       0x11 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text._svfprintf_r
+                0x0000000000000000      0x1fc C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000000000       0x90 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x0000000000000000       0x2e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000000000000       0x24 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x1a C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .rodata._vfprintf_r.str1.1
+                0x0000000000000000       0x11 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x0000000000000000      0x234 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x14 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000000000       0xa8 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x0000000000000000       0xda C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .rodata._printf_i.str1.1
+                0x0000000000000000       0x22 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x0000000000000000      0x244 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000000       0x60 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
  .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
  .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
@@ -2860,6 +4261,38 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x5c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
  .ARM.attributes
                 0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x294 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x3c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .text.__swbuf_r
+                0x0000000000000000       0x7a C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x10 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x0000000000000000       0x40 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .text.__swsetup_r
+                0x0000000000000000       0xb0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x0000000000000000       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x28 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memmove.o)
  .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
@@ -2867,6 +4300,60 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
  .ARM.attributes
                 0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x0000000000000000       0xa0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000000000       0x1c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x5e C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x0000000000000000       0x3c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reallocr.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .text.__swhatbuf_r
+                0x0000000000000000       0x4c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .text.__smakebuf_r
+                0x0000000000000000       0x78 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x0000000000000000       0x58 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .text._fstat_r
+                0x0000000000000000       0x24 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x0000000000000000       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .text._isatty_r
+                0x0000000000000000       0x20 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x0000000000000000       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .text          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+ .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+ .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x10 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-msizer.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
@@ -2900,8 +4387,29 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 LOAD ./Core/BSP/LCD_RA8875.o
+LOAD ./Core/BSP/LCD_SPFD5420.o
 LOAD ./Core/BSP/bsp.o
+LOAD ./Core/BSP/bsp_key.o
+LOAD ./Core/BSP/bsp_led.o
+LOAD ./Core/BSP/bsp_ra8875_port.o
 LOAD ./Core/BSP/bsp_tft_lcd.o
+LOAD ./Core/FatFS/diskio.o
+LOAD ./Core/FatFS/ff.o
+LOAD ./Core/Images/ADC.o
+LOAD ./Core/Images/Camera.o
+LOAD ./Core/Images/ChiLun.o
+LOAD ./Core/Images/GPS.o
+LOAD ./Core/Images/LCD.o
+LOAD ./Core/Images/MP3.o
+LOAD ./Core/Images/Phone.o
+LOAD ./Core/Images/Recorder.o
+LOAD ./Core/Images/USBDisk.o
+LOAD ./Core/Images/Wireless.o
+LOAD ./Core/Images/chujiao.o
+LOAD ./Core/Images/hwinfo.o
+LOAD ./Core/Images/radio.o
+LOAD ./Core/Images/web.o
+LOAD ./Core/Src/bmp_file.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/main_menu.o
 LOAD ./Core/Src/stm32f4xx_hal_msp.o
@@ -3397,41 +4905,41 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x000000000000022c       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
 
-.debug_macro    0x0000000000000000      0xdb9
- .debug_macro   0x0000000000000000      0x2f7 ./Core/Src/main.o
- .debug_macro   0x00000000000002f7      0x1ba ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00000000000004b1      0x1c4 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0000000000000675      0x1b0 ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x0000000000000825      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x0000000000000a35      0x1b0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x0000000000000be5      0x1d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+.debug_macro    0x0000000000000000      0xddf
+ .debug_macro   0x0000000000000000      0x31d ./Core/Src/main.o
+ .debug_macro   0x000000000000031d      0x1ba ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00000000000004d7      0x1c4 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x000000000000069b      0x1b0 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x000000000000084b      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x0000000000000a5b      0x1b0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x0000000000000c0b      0x1d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
 
-.debug_line     0x0000000000000000     0x43e9
- .debug_line    0x0000000000000000      0x95d ./Core/Src/main.o
- .debug_line    0x000000000000095d      0x6fe ./Core/Src/stm32f4xx_hal_msp.o
- .debug_line    0x000000000000105b      0x7c0 ./Core/Src/stm32f4xx_it.o
- .debug_line    0x000000000000181b      0x77f ./Core/Src/system_stm32f4xx.o
- .debug_line    0x0000000000001f9a       0x7a ./Core/Startup/startup_stm32f407igtx.o
- .debug_line    0x0000000000002014      0x9e5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x00000000000029f9      0xc94 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x000000000000368d      0xd5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+.debug_line     0x0000000000000000     0x442a
+ .debug_line    0x0000000000000000      0x99e ./Core/Src/main.o
+ .debug_line    0x000000000000099e      0x6fe ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_line    0x000000000000109c      0x7c0 ./Core/Src/stm32f4xx_it.o
+ .debug_line    0x000000000000185c      0x77f ./Core/Src/system_stm32f4xx.o
+ .debug_line    0x0000000000001fdb       0x7a ./Core/Startup/startup_stm32f407igtx.o
+ .debug_line    0x0000000000002055      0x9e5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x0000000000002a3a      0xc94 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x00000000000036ce      0xd5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
 
-.debug_str      0x0000000000000000    0xbf61a
- .debug_str     0x0000000000000000    0xbe2ef ./Core/Src/main.o
-                                      0xbe579 (size before relaxing)
- .debug_str     0x00000000000be2ef       0x2c ./Core/Src/stm32f4xx_hal_msp.o
+.debug_str      0x0000000000000000    0xbf923
+ .debug_str     0x0000000000000000    0xbe5f8 ./Core/Src/main.o
+                                      0xbe882 (size before relaxing)
+ .debug_str     0x00000000000be5f8       0x2c ./Core/Src/stm32f4xx_hal_msp.o
                                       0xbaa90 (size before relaxing)
- .debug_str     0x00000000000be31b       0xc9 ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00000000000be624       0xc9 ./Core/Src/stm32f4xx_it.o
                                       0xbaa16 (size before relaxing)
- .debug_str     0x00000000000be3e4       0xdb ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x00000000000be6ed       0xdb ./Core/Src/system_stm32f4xx.o
                                       0xbab40 (size before relaxing)
- .debug_str     0x00000000000be4bf       0x34 ./Core/Startup/startup_stm32f407igtx.o
+ .debug_str     0x00000000000be7c8       0x34 ./Core/Startup/startup_stm32f407igtx.o
                                          0x68 (size before relaxing)
- .debug_str     0x00000000000be4f3      0xb0e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x00000000000be7fc      0xb0e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
                                       0xbb6c4 (size before relaxing)
- .debug_str     0x00000000000bf001      0x365 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00000000000bf30a      0x365 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
                                       0xbb3f7 (size before relaxing)
- .debug_str     0x00000000000bf366      0x2b4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00000000000bf66f      0x2b4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
                                       0xbaf74 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0xcd0

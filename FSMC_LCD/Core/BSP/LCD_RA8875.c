@@ -14,7 +14,7 @@ static uint16_t s_WinY = 0;
 static uint16_t s_WinHeight = 272;
 static uint16_t s_WinWidth = 480;
 
-
+static void RA8875_SetCursor(uint16_t _usX, uint16_t _usY);
 static void RA8875_WriteReg(uint8_t _ucRegAddr, uint8_t _ucRegValue);
 static void BTE_SetTarBlock(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint8_t _ucLayer);
 static void BTE_SetOperateCode(uint8_t _ucOperate);
@@ -66,6 +66,48 @@ void RA8875_SetFrontColor(uint16_t _usColor)
     RA8875_WriteReg(0x63, (_usColor & 0xF800) >> 11);	/* R5  */
 	RA8875_WriteReg(0x64, (_usColor & 0x07E0) >> 5);	/* G6 */
 	RA8875_WriteReg(0x65, (_usColor & 0x001F));			/* B5 */
+}
+
+void RA8875_DrawBMP(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t *_ptr)
+{
+    uint32_t index = 0;
+	const uint16_t *p;
+
+    RA8875_SetDispWin(_usX, _usY, _usHeight, _usWidth);
+}
+
+void RA8875_SetDispWin(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth)
+{
+    uint16_t usTemp;
+
+    RA8875_WriteReg(0x30, _usX);
+    RA8875_WriteReg(0x31, _usX >> 8);
+
+    RA8875_WriteReg(0x32, _usY);
+    RA8875_WriteReg(0x33, _usY >> 8);
+
+    usTemp = _usWidth + _usX - 1;
+    RA8875_WriteReg(0x34, usTemp);
+    RA8875_WriteReg(0x35, usTemp >> 8);
+
+    usTemp = _usHeight + _usY - 1;
+    RA8875_WriteReg(0x36, usTemp);
+    RA8875_WriteReg(0x37, usTemp >> 8);
+
+    RA8875_SetCursor(_usX, _usY);
+    
+    s_WinX = _usX;
+	s_WinY = _usY;
+	s_WinHeight = _usHeight;
+	s_WinWidth = _usWidth;
+}
+
+static void RA8875_SetCursor(uint16_t _usX, uint16_t _usY)
+{
+    RA8875_WriteReg(0x46, _usX);
+    RA8875_WriteReg(0x47, _usX >> 8);
+	RA8875_WriteReg(0x48, _usY);
+	RA8875_WriteReg(0x49, _usY >> 8);
 }
 
 

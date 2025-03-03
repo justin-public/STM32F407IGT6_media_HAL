@@ -1,1 +1,6 @@
-../Core/BSP/bsp_tft_lcd.c:12:6:LCD_ClrScr	2
+../Core/BSP/bsp_tft_lcd.c:12:10:LCD_GetWidth	1
+../Core/BSP/bsp_tft_lcd.c:17:10:LCD_GetHeight	1
+../Core/BSP/bsp_tft_lcd.c:22:6:LCD_ClrScr	2
+../Core/BSP/bsp_tft_lcd.c:34:6:LCD_DrawBMP	2
+../Core/BSP/bsp_tft_lcd.c:46:10:Blend565	1
+../Core/BSP/bsp_tft_lcd.c:57:6:LCD_DrawIcon32	9

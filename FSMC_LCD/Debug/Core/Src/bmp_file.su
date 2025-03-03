@@ -1,0 +1,2 @@
+../Core/Src/bmp_file.c:31:13:MakeBmpHeader	16	static
+../Core/Src/bmp_file.c:52:6:SaveScreenToBmp	3648	static
