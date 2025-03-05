@@ -2,6 +2,11 @@
     "files.associations": {
         "bsp.h": "c",
         "bmp_file.h": "c",
-        "ff.h": "c"
+        "ff.h": "c",
+        "bsp_key.h": "c",
+        "param.h": "c",
+        "main_menu.h": "c",
+        "touch_test.h": "c",
+        "hard_test.h": "c"
     }
 }

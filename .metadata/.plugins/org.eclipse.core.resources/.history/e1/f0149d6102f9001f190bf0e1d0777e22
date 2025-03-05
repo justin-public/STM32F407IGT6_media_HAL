@@ -1,0 +1,61 @@
+/*
+ * touch_test.c
+ *
+ *  Created on: Mar 4, 2025
+ *      Author: compro
+ */
+#include "bsp.h"
+#include "main_menu.h"
+#include "images.h"
+#include "param.h"
+
+#define BUTTON_RET_H	32
+#define BUTTON_RET_W	60
+#define	BUTTON_RET_X	(g_LcdWidth - BUTTON_RET_W - 4)
+#define	BUTTON_RET_Y	(g_LcdHeight - BUTTON_RET_H - 4)
+
+void TestTouch(void)
+{
+    uint8_t ucKeyCode;		
+	uint8_t ucTouch;		
+	uint8_t fRefresh;		
+	FONT_T tFont, tFontBtn;	
+	char buf[64];
+	uint16_t usAdcX, usAdcY;
+	int16_t tpX, tpY;
+
+    BUTTON_T tBtn;
+
+    LCD_ClrScr(CL_BLUE);
+
+    {
+        tFont.FontCode = FC_ST_16;
+        tFont.FrontColor = CL_WHITE;	
+		tFont.BackColor = CL_BLUE;	
+		tFont.Space = 0;				
+    }
+    {
+        tFontBtn.FontCode = FC_ST_16;
+		tFontBtn.BackColor = CL_MASK;		
+		tFontBtn.FrontColor = CL_BLACK;
+		tFontBtn.Space = 0;
+    }
+    LCD_SetBackLight(g_tParam.ucBackLight);
+
+    
+
+    fRefresh = 1;
+    while(1)
+    {
+        bsp_Idle();
+        if (fRefresh)
+        {
+            fRefresh = 0;
+            {
+                LCD_DispStr(5, 3, "Touchscreen Button Joystick LED Indicator Test", &tFont);
+            }
+        }
+    }
+}
+
+

@@ -109,9 +109,34 @@ enum
 						ICON18_W	= ICON_WIDTH,	
 };
 
+#define ICONS_COUNT     18
+
+static const uint8_t s_RetStatus[ICONS_COUNT] =
+{
+	MS_HARDWARE_INFO,	
+	MS_TEST_TOUCH,		
+	MS_RADIO,			
+	MS_WM8978_REC,		
+	MS_MEMS,			
+	MS_ETH_WEB,			
+	
+	MS_GPS,				
+	MS_GPRS,			
+	MS_MP3,				
+	MS_MASS_STORAGE,		
+	MS_AD7606_TEST,			
+	MS_CAMERA,			
+	
+	MS_OLED,			
+	MS_NRF24L01,		
+	MS_NRF905,				
+	MS_RS485,			
+	MS_CAN,				
+	MS_RA8875,			
+};
+
 #define STYLE_COUNT			7		
 
-#define ICONS_COUNT     18
 static const ICON_T s_tMainIcons[ICONS_COUNT] =
 {	
 	{ID_ICON, ICON1_X, ICON1_Y, ICON1_H, ICON1_W, (uint16_t *)achwinfo, "achwinfo"},
@@ -214,6 +239,79 @@ uint8_t MainMenu(void)
                 }
             }
         }
+		ucTouch = TOUCH_GetKey(&tpX, &tpY);
+		if(ucTouch != TOUCH_NONE)
+		{
+			switch(ucTouch)
+			{
+				case TOUCH_DOWN:
+					{
+						for (i = 0; i < ICONS_COUNT; i++)
+						{
+							if (TOUCH_InRect(tpX, tpY, s_tMainIcons[i].Left, s_tMainIcons[i].Top,
+								s_tMainIcons[i].Height, s_tMainIcons[i].Width))
+							{
+								LCD_DrawIcon32(&s_tMainIcons[i], &tIconFont, 1);
+							}
+						}
+					}
+					break;
+				case TOUCH_MOVE:		
+					break;
+				case TOUCH_RELEASE:
+					for (i = 0; i < ICONS_COUNT; i++)
+					{
+						if (TOUCH_InRect(tpX, tpY, s_tMainIcons[i].Left, s_tMainIcons[i].Top,
+							s_tMainIcons[i].Height, s_tMainIcons[i].Width))
+						{
+							return s_RetStatus[i];
+						}
+					}
+					{
+						for (i = 0; i < ICONS_COUNT; i++)
+						{
+							LCD_DrawIcon32(&s_tMainIcons[i], &tIconFont, 0);
+						}
+					}
+					break;
+				default:
+					break;
+			}
+		}
+		ucKeyCode = bsp_GetKey();
+		if (ucKeyCode != KEY_NONE)
+		{
+			switch (ucKeyCode)
+			{
+				case  KEY_DOWN_K3:
+					return MS_CALIBRATION;
+				case  KEY_DOWN_K1:
+					if (++s_ColorIndex >= STYLE_COUNT)
+					{
+						s_ColorIndex = 0;
+					}
+					{
+						DispBackground();
+						{
+							tFont.FontCode = FC_ST_16;
+							tFont.FrontColor = MAIN_TEXT_COLOR;
+							tFont.BackColor = CL_MASK;
+							tFont.Space = 0;
+
+							tIconFont.FontCode = FC_ST_12;		
+							tIconFont.FrontColor = MAIN_TEXT_COLOR;	
+							tIconFont.BackColor = CL_MASK;		
+							tIconFont.Space = 1;				
+						}
+						LCD_DispStr(5, 3, VER_INFO, &tFont);
+						LCD_DispStr(5, g_LcdHeight - 13, KEY_INFO, &tIconFont);
+					}
+					fRefresh = 1;
+					break;
+				default:
+					break;
+			}	
+		}	
     }
 }
 

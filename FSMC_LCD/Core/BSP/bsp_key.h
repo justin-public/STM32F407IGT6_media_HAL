@@ -105,6 +105,7 @@ typedef struct
 	uint8_t Read2;					
 }KEY_FIFO_T;
 
+uint8_t bsp_GetKey(void);
 uint8_t bsp_GetKey2(void);
 
 #endif /* BSP_BSP_KEY_H_ */

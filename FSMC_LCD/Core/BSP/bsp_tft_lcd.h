@@ -52,6 +52,20 @@ enum
 	IC_8875 	= 0x0075
 };
 
+enum
+{
+	BUTTON_BORDER_COLOR		= CL_BLUE2,			/* °´Å¥ËÄ¸ö±ßµÄÑÕÉ« */
+	BUTTON_BORDER1_COLOR	= CL_WHITE,			/* °´Å¥ËÄ¸ö±ßÄÚ²¿2ÁÐµÄÑÕÉ« */
+	BUTTON_BORDER2_COLOR	= CL_GREY1,			/* °´Å¥ËÄ¸ö±ßÄÚ²¿2ÁÐµÄÑÕÉ« */
+	BUTTON_BACK_COLOR		= CL_GREY3,			/* °´Å¥±³¾° */
+	BUTTON_ACTIVE_COLOR		= CL_CYAN,			/* ¼¤»îµÄ°´Å¥±³¾° */
+};
+
+#define CHIP_STR_5420	"SPFD5420A"
+#define CHIP_STR_4001	"OTM4001A"
+#define CHIP_STR_61509	"R61509V"
+#define CHIP_STR_8875	"RA8875"
+
 typedef struct
 {
     uint16_t FontCode;	
@@ -88,7 +102,22 @@ typedef enum
 	ID_GROUP 	= 7,
 }CONTROL_ID_T;
 
+typedef struct
+{
+	uint8_t id;
+	uint16_t Left;
+	uint16_t Top;
+	uint16_t Height;
+	uint16_t Width;
+	FONT_T *Font;			
+	char *pCaption;
+	uint8_t Focus;			
+}BUTTON_T;
 
+#define BRIGHT_MAX		255
+#define BRIGHT_MIN		0
+#define BRIGHT_DEFAULT	200
+#define BRIGHT_STEP		5
 
 extern uint16_t g_ChipID;			
 extern uint16_t g_LcdHeight;		
@@ -100,5 +129,13 @@ uint16_t LCD_GetWidth(void);
 uint16_t LCD_GetHeight(void);
 uint16_t LCD_GetPixel(uint16_t _usX, uint16_t _usY);
 void LCD_DrawIcon32(const ICON_T *_tIcon, FONT_T *_tFont, uint8_t _ucFocusMode);
+void LCD_DispStr(uint16_t _usX, uint16_t _usY, char *_ptr, FONT_T *_tFont);
+void LCD_PutPixel(uint16_t _usX, uint16_t _usY, uint16_t _usColor);
+void LCD_SetBackLight(uint8_t _bright);
+void LCD_GetChipDescribe(char *_str);
+void LCD_DrawCircle(uint16_t _usX, uint16_t _usY, uint16_t _usRadius, uint16_t _usColor);
+void LCD_DrawButton(BUTTON_T *_pBtn);
+void LCD_DrawRect(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t _usColor);
+void LCD_Fill_Rect(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t _usColor);
 
 #endif /* BSP_BSP_TFT_LCD_H_ */

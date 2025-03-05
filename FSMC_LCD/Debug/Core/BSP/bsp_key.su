@@ -1,1 +1,2 @@
-../Core/BSP/bsp_key.c:11:9:bsp_GetKey2	16	static
+../Core/BSP/bsp_key.c:11:9:bsp_GetKey	16	static
+../Core/BSP/bsp_key.c:30:9:bsp_GetKey2	16	static

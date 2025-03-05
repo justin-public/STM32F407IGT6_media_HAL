@@ -1,0 +1,97 @@
+/*
+ * hard_test.c
+ *
+ *  Created on: Mar 5, 2025
+ *      Author: compro
+ */
+#include "bsp.h"			
+#include "hard_test.h"
+
+#define BUTTON_RET_H	32
+#define BUTTON_RET_W	60
+#define	BUTTON_RET_X	(g_LcdWidth - BUTTON_RET_W - 4)
+#define	BUTTON_RET_Y	(g_LcdHeight - BUTTON_RET_H - 4)
+
+void HardInfo(void)
+{
+    uint8_t ucKeyCode;		
+	uint8_t ucTouch;		
+	uint8_t fRefresh;		
+	FONT_T tFont, tFontBtn;	
+	char buf[128];
+	uint16_t x, y;
+	uint16_t usLineCap = 18;
+
+	int16_t tpX, tpY;
+	BUTTON_T tBtn;
+
+	LCD_ClrScr(CL_BLUE);
+    
+    {
+        tFont.FontCode = FC_ST_16;
+        tFont.FrontColor = CL_WHITE;	
+		tFont.BackColor = CL_BLUE;	
+		tFont.Space = 0;
+        
+        tFontBtn.FontCode = FC_ST_16;
+		tFontBtn.BackColor = CL_MASK;	
+		tFontBtn.FrontColor = CL_BLACK;
+		tFontBtn.Space = 0;    
+    }
+    x = 5;
+	y = 3;
+	LCD_DispStr(x, y, "STM32-V5", &tFont);			
+	y += usLineCap;
+
+    {
+        uint32_t CPU_Sn0, CPU_Sn1, CPU_Sn2;
+        
+        CPU_Sn0 = *(__IO uint32_t*)(0x1FFF7A10);
+		CPU_Sn1 = *(__IO uint32_t*)(0x1FFF7A10 + 4);
+		CPU_Sn2 = *(__IO uint32_t*)(0x1FFF7A10 + 8);
+
+        printf("\r\nCPU : STM32F407IGT6, LQFP176\r\n");
+        LCD_DispStr(x, y, "CPU : STM32F407IGT6, LQFP176", &tFont);
+        y += usLineCap;	
+
+        sprintf(buf, " UID = %08X %08X %08X", CPU_Sn2, CPU_Sn1, CPU_Sn0);
+        printf("%s\r\n", buf);
+		LCD_DispStr(x, y, buf, &tFont);
+		y += usLineCap;		
+    }
+    {
+        strcpy(buf, "TFT Driver : ");
+        LCD_GetChipDescribe(&buf[strlen(buf)]);	
+        sprintf(&buf[strlen(buf)], "   %d x %d", LCD_GetWidth(), LCD_GetHeight());
+        LCD_DispStr(x, y, buf, &tFont);
+        y += usLineCap;
+    }
+    {
+        if (bsp_TestExtSRAM() == 0)
+        {
+            sprintf(buf, "SRAM Model : IS61WV102416BLL-10TL, Test OK");
+            printf("%s\r\n", buf);
+
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "SRAM Model: IS61WV102416BLL-10TL, Test Err");
+            printf("%s\r\n", buf);
+
+            tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+    }
+    {
+        uint32_t id;
+        id = NOR_ReadID();
+
+        if (id == S29GL128P)
+        {
+            
+        }
+    }
+}

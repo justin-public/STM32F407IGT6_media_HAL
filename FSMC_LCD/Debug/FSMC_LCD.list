@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_rnglists 00000292  00000000  00000000  00023d40  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_macro  00000ddf  00000000  00000000  00023fd2  2**0
+ 18 .debug_macro  00000e30  00000000  00000000  00023fd2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   0000442a  00000000  00000000  00024db1  2**0
+ 19 .debug_line   0000447e  00000000  00000000  00024e02  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    000bf923  00000000  00000000  000291db  2**0
+ 20 .debug_str    000bfac9  00000000  00000000  00029280  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  00000cd0  00000000  00000000  000e8b00  2**2
+ 21 .debug_frame  00000cd0  00000000  00000000  000e8d4c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 0000005c  00000000  00000000  000e97d0  2**0
+ 22 .debug_line_str 0000005c  00000000  00000000  000e9a1c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -362,6 +362,11 @@ int main(void)
 {
  80004c4:	b580      	push	{r7, lr}
  80004c6:	af00      	add	r7, sp, #0
+   `\User\bsp_stm32f4xx\system_stm32f4xx.c`
+   Several macros at the beginning of the file are PLL multiplier parameters. By modifying these macros, you can change the main frequency without modifying the hardware.
+  */
+
+
   HAL_Init();
  80004c8:	f000 f920 	bl	800070c <HAL_Init>
   SystemClock_Config();

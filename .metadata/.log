@@ -205,3 +205,101 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-03 20:59:38.080
 !MESSAGE Indexed 'FSMC_LCD' (32 sources, 100 headers) in 3.51 sec: 5,119 declarations; 18,626 references; 0 unresolved inclusions; 1 syntax errors; 4 unresolved names (0.017%)
+!SESSION 2025-03-04 10:22:55.015 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-04 10:25:25.383
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-04 10:25:25.431
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-04 10:25:34.095
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-04 10:25:38.650
+!MESSAGE Indexed 'FSMC_LCD' (46 sources, 100 headers) in 3.65 sec: 5,260 declarations; 19,137 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0082%)
+!SESSION 2025-03-04 15:52:33.668 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-04 15:52:42.743
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-04 15:52:42.745
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-04 15:52:49.016
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-04 15:52:53.431
+!MESSAGE Indexed 'FSMC_LCD' (48 sources, 103 headers) in 3.19 sec: 5,354 declarations; 19,486 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0081%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-04 15:55:05.386
+!MESSAGE Indexed 'FSMC_LCD' (49 sources, 103 headers) in 1.95 sec: 5,359 declarations; 19,517 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.008%)
+!SESSION 2025-03-04 23:04:23.162 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-04 23:04:32.811
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-04 23:04:32.814
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-04 23:04:40.123
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-04 23:04:43.984
+!MESSAGE Indexed 'FSMC_LCD' (49 sources, 105 headers) in 2.88 sec: 5,951 declarations; 20,385 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0076%)
+!SESSION 2025-03-04 23:08:10.949 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-04 23:08:17.418
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-04 23:08:17.420
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-04 23:08:23.364
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-04 23:08:27.236
+!MESSAGE Indexed 'FSMC_LCD' (49 sources, 105 headers) in 2.93 sec: 5,952 declarations; 20,386 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0076%)
+!SESSION 2025-03-05 09:42:03.882 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-05 09:42:15.233
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-05 09:42:15.259
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-05 09:42:23.802
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-05 09:42:28.509
+!MESSAGE Indexed 'FSMC_LCD' (49 sources, 106 headers) in 3.78 sec: 5,954 declarations; 20,387 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0076%)

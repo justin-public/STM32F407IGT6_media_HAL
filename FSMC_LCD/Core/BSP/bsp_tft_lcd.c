@@ -8,6 +8,7 @@
 #include "fonts.h"
 
 uint16_t g_LcdWidth = 400;
+uint8_t s_ucBright;
 
 uint16_t LCD_GetWidth(void)
 {
@@ -127,5 +128,321 @@ void LCD_DrawIcon32(const ICON_T *_tIcon, FONT_T *_tFont, uint8_t _ucFocusMode)
         x = (_tIcon->Left + _tIcon->Width / 2) - width / 2;
 		y = _tIcon->Top + _tIcon->Height + 2;
 		LCD_DispStr(x, y, (char *)_tIcon->Text, _tFont);
+    }
+}
+
+void LCD_DispStr(uint16_t _usX, uint16_t _usY, char *_ptr, FONT_T *_tFont)
+{
+    uint32_t i;
+	uint8_t code1;
+	uint8_t code2;
+	uint32_t address;
+	uint8_t buf[24 * 24 / 8];	
+	uint8_t width;
+	uint16_t m;
+	uint8_t font_width,font_height, font_bytes;
+	uint16_t x, y;
+	const uint8_t *pAscDot;
+#ifdef USE_SMALL_FONT
+	const uint8_t *pHzDot;
+#else
+	uint32_t AddrHZK;
+#endif
+    if (_tFont->FontCode == FC_ST_12)
+    {
+        font_height = 12;
+		font_width = 12;
+		font_bytes = 24;
+        pAscDot = g_Ascii12;
+    
+    #ifdef USE_SMALL_FONT
+		pHzDot = g_Hz12;
+	#else
+		AddrHZK = HZK12_ADDR;
+	#endif
+    }
+    else
+    {
+        font_height = 16;
+		font_width = 16;
+		font_bytes = 32;
+		pAscDot = g_Ascii16;
+    
+    #ifdef USE_SMALL_FONT
+		pHzDot = g_Hz16;
+	#else
+		AddrHZK = HZK16_ADDR;
+	#endif
+    }
+
+    while (*_ptr != 0)
+    {
+        code1 = *_ptr;
+        if (code1 < 0x80)
+        {
+            memcpy(buf, &pAscDot[code1 * (font_bytes / 2)], (font_bytes / 2));
+            width = font_width / 2;
+        }
+        else
+        {
+            code2 = *++_ptr;
+            if(code2 == 0)
+            {
+                break;
+            }
+            #ifdef USE_SMALL_FONT
+                m = 0;
+                while (1)
+                {
+                    address = m * (font_bytes + 2);
+                    m++;
+                    if ((code1 == pHzDot[address + 0]) && (code2 == pHzDot[address + 1]))
+                    {
+                        address += 2;
+                        memcpy(buf, &pHzDot[address], font_bytes);
+                        break;
+                    }
+                    else if((pHzDot[address + 0] == 0xFF) && (pHzDot[address + 1] == 0xFF))
+                    {
+                        memset(buf, 0xFF, font_bytes);
+                        break;
+                    }
+                }
+            #else
+                if (code1 >=0xA1 && code1 <= 0xA9 && code2 >=0xA1)
+                {
+                    address = ((code1 - 0xA1) * 94 + (code2 - 0xA1)) * font_bytes + AddrHZK;
+                }      
+                else if (code1 >=0xB0 && code1 <= 0xF7 && code2 >=0xA1)
+                {
+                    address = ((code1 - 0xB0) * 94 + (code2 - 0xA1) + 846) * font_bytes + AddrHZK;
+                }
+                memcpy(buf, (const uint8_t *)address, font_bytes);
+            #endif
+                width = font_width; 
+        }
+        y = _usY;
+        for (m = 0; m < font_height; m++)
+        {
+            x = _usX;
+            for (i = 0; i < width; i++)
+            {
+                if ((buf[m * ((2 * width) / font_width) + i / 8] & (0x80 >> (i % 8 ))) != 0x00)
+                {
+                    LCD_PutPixel(x, y, _tFont->FrontColor);
+                }
+                else
+                {
+                    if (_tFont->BackColor != CL_MASK)
+                    {
+                        LCD_PutPixel(x, y, _tFont->BackColor);
+                    }
+                }
+                x++;
+            }
+            y++;
+        }
+        if (_tFont->Space > 0)
+        {
+
+        }
+        _usX += width + _tFont->Space;
+        _ptr++;
+    }
+}
+
+void LCD_PutPixel(uint16_t _usX, uint16_t _usY, uint16_t _usColor)
+{
+    if (g_ChipID == IC_8875)
+    {
+        RA8875_PutPixel(_usX, _usY, _usColor);
+    }
+    else
+    {
+        SPFD5420_PutPixel(_usX, _usY, _usColor);
+    }
+}
+
+void LCD_SetBackLight(uint8_t _bright)
+{
+    s_ucBright =  _bright;
+
+    if (g_ChipID == IC_8875)
+    {
+        RA8875_SetBackLight(_bright);
+    }
+    else
+    {
+        SPFD5420_SetBackLight(_bright);
+    }
+}
+
+void LCD_GetChipDescribe(char *_str)
+{
+    switch (g_ChipID)
+    {
+        case IC_5420:
+			strcpy(_str, CHIP_STR_5420);
+			break;
+        
+        case IC_4001:
+			strcpy(_str, CHIP_STR_4001);
+			break;
+        
+        case IC_61509:
+			strcpy(_str, CHIP_STR_61509);
+			break;
+        
+        case IC_8875:
+			strcpy(_str, CHIP_STR_8875);
+			break;
+        
+        default:
+			strcpy(_str, "Unknow");
+			break;
+    }
+}
+
+void LCD_DrawCircle(uint16_t _usX, uint16_t _usY, uint16_t _usRadius, uint16_t _usColor)
+{
+    if (g_ChipID == IC_8875)
+    {
+        RA8875_DrawCircle(_usX, _usY, _usRadius, _usColor);
+    }
+    else
+    {
+        SPFD5420_DrawCircle(_usX, _usY, _usRadius, _usColor);
+    }
+}
+
+void LCD_DrawButton(BUTTON_T *_pBtn)
+{
+#if 1
+    uint16_t len, fwidth, x, y;
+    if (_pBtn->Focus == 1)
+    {
+        LCD_DrawRect(_pBtn->Left, _pBtn->Top, _pBtn->Height, _pBtn->Width, BUTTON_BORDER_COLOR);
+        LCD_DrawRect(_pBtn->Left + 1, _pBtn->Top + 1, _pBtn->Height - 2, _pBtn->Width - 2, BUTTON_BORDER1_COLOR);
+        LCD_DrawRect(_pBtn->Left + 2, _pBtn->Top + 2, _pBtn->Height - 4, _pBtn->Width - 4, BUTTON_BORDER2_COLOR);
+
+        LCD_Fill_Rect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, BUTTON_ACTIVE_COLOR);
+    }
+    else
+    {
+        LCD_DrawRect(_pBtn->Left, _pBtn->Top, _pBtn->Height, _pBtn->Width, BUTTON_BORDER_COLOR);
+        LCD_DrawRect(_pBtn->Left + 1, _pBtn->Top + 1, _pBtn->Height - 2, _pBtn->Width - 2, BUTTON_BORDER1_COLOR);
+		LCD_DrawRect(_pBtn->Left + 2, _pBtn->Top + 2, _pBtn->Height - 4, _pBtn->Width - 4, BUTTON_BORDER2_COLOR);
+
+        LCD_Fill_Rect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, BUTTON_BACK_COLOR);
+    }
+    len = strlen(_pBtn->pCaption);
+
+    if(_pBtn->Font->FontCode == FC_ST_16)
+    {
+        fwidth = 8;
+    }
+    else if (_pBtn->Font->FontCode == FC_ST_12)
+	{
+		fwidth = 6;		
+	}
+    else
+    {
+        fwidth = 8;
+    }
+    x = _pBtn->Left + _pBtn->Width / 2 - (len * fwidth) / 2;
+    y = _pBtn->Top + _pBtn->Height / 2 - fwidth;
+
+    LCD_DispStr(x, y, _pBtn->pCaption, _pBtn->Font);
+#else
+    if (g_ChipID == IC_8875)
+    {
+        uint16_t len, x, y;
+        if (_pBtn->Focus == 1)
+		{
+			RA8875_DrawRect(_pBtn->Left, _pBtn->Top, _pBtn->Height, _pBtn->Width, BUTTON_BORDER_COLOR);
+			RA8875_DrawRect(_pBtn->Left + 1, _pBtn->Top + 1, _pBtn->Height - 2, _pBtn->Width - 2, BUTTON_BORDER1_COLOR);
+			RA8875_DrawRect(_pBtn->Left + 2, _pBtn->Top + 2, _pBtn->Height - 4, _pBtn->Width - 4, BUTTON_BORDER2_COLOR);
+
+			RA8875_FillRect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, BUTTON_ACTIVE_COLOR);
+
+			RA8875_SetBackColor(BUTTON_ACTIVE_COLOR);
+		}
+        else
+        {
+            RA8875_DrawRect(_pBtn->Left, _pBtn->Top, _pBtn->Height, _pBtn->Width, BUTTON_BORDER_COLOR);
+			RA8875_DrawRect(_pBtn->Left + 1, _pBtn->Top + 1, _pBtn->Height - 2, _pBtn->Width - 2, BUTTON_BORDER1_COLOR);
+			RA8875_DrawRect(_pBtn->Left + 2, _pBtn->Top + 2, _pBtn->Height - 4, _pBtn->Width - 4, BUTTON_BORDER2_COLOR);
+
+			RA8875_FillRect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, BUTTON_BACK_COLOR);
+
+			RA8875_SetBackColor(BUTTON_BACK_COLOR);
+        }
+        #if 1
+            if (strcmp(_pBtn->Caption, "¡û") == 0)
+            {
+                RA8875_SetFont(RA_FONT_16, 0, 0);
+				RA8875_SetFrontColor(CL_BLACK);
+				RA8875_SetTextZoom(RA_SIZE_X2, RA_SIZE_X2);
+            }
+            else
+            {
+                RA8875_SetFont(RA_FONT_16, 0, 0);
+				RA8875_SetFrontColor(CL_BLACK);
+				RA8875_SetTextZoom(RA_SIZE_X1, RA_SIZE_X1);
+            }
+        #else
+            RA8875_SetFont(_pBtn->Font.FontCode, 0, 0);
+			RA8875_SetFrontColor(_pBtn->Font.FrontColor);	
+        #endif
+        len = strlen(_pBtn->Caption);
+        if (len != 3)
+		{
+		    x = _pBtn->Left + (_pBtn->Width - len * 16) / 2;
+		}
+		else
+		{
+			x = _pBtn->Left + (_pBtn->Width - len * 20) / 2;
+		}
+        if ((len == 1) && (_pBtn->Caption[0] == '.'))
+        {
+            y = _pBtn->Top + 3;
+			x += 3;
+        }
+        else
+        {
+            y = _pBtn->Top + 3;
+        }
+        RA8875_DispStr(x, y, _pBtn->Caption);
+        RA8875_SetTextZoom(RA_SIZE_X1, RA_SIZE_X1);	
+    }
+#endif
+}
+
+void LCD_DrawRect(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t _usColor)
+{
+    if (g_ChipID == IC_8875)
+    {
+        RA8875_DrawRect(_usX, _usY, _usHeight, _usWidth, _usColor);
+    }
+    else
+    {
+        SPFD5420_DrawRect(_usX, _usY, _usHeight, _usWidth, _usColor);
+    }
+}
+
+void LCD_Fill_Rect(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_t _usWidth, uint16_t _usColor)
+{
+    uint16_t i;
+
+    if (g_ChipID == IC_8875)
+    {
+        RA8875_FillRect(_usX, _usY, _usHeight, _usWidth, _usColor);
+    }
+    else
+    {
+        for (i = 0; i < _usHeight; i++)
+        {
+            SPFD5420_DrawHLine(_usX, _usY, _usX + _usWidth - 1, _usColor);
+        }
     }
 }

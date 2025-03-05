@@ -45,6 +45,9 @@
 #include "LCD_SPFD5420.h"
 #include "bsp_key.h"
 #include "bsp_led.h"
+#include "bsp_touch.h"
+#include "bsp_fsmc_sram.h"
+#include "bsp_nor_flash.h"
 
 void bsp_Init(void);
 void bsp_Idle(void);

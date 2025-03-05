@@ -1,0 +1,39 @@
+/*
+ * bsp_touch.c
+ *
+ *  Created on: Mar 4, 2025
+ *      Author: compro
+ */
+#include "stm32f4xx.h"
+#include <stdio.h>
+
+#include "bsp_touch.h"
+#include "bsp_tft_lcd.h"
+#include "LCD_RA8875.h"
+#include "bsp_timer.h"
+
+#include "param.h"
+
+TOUCH_T g_tTP;
+
+uint8_t TOUCH_GetKey(int16_t *_pX, int16_t *_pY)
+{
+    uint8_t ret;
+
+    if(g_tTP.Read == g_tTP.Write)
+    {
+        return TOUCH_NONE;
+    }
+    else
+    {
+        ret = g_tTP.Event[g_tTP.Read];
+		*_pX = g_tTP.XBuf[g_tTP.Read];
+		*_pY = g_tTP.YBuf[g_tTP.Read];
+
+        if (++g_tTP.Read >= TOUCH_FIFO_SIZE)
+        {
+            g_tTP.Read = 0;
+        }
+        return ret;
+    }
+}

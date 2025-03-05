@@ -1,12 +1,28 @@
 #include "bsp.h"
 #include "images.h"
 #include "main_enum.h"
+#include "main_menu.h"
+#include "touch_test.h"
+#include "hard_test.h"
+
+
 
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 
 int main(void)
 {
+  /*
+   Since the startup file of the ST firmware library has already executed the CPU system clock initialization, there is no need to configure the system clock again.
+   The startup file `startup_stm32f4xx.s` will call the `void SystemInit(void)` function in `system_stm32f4xx.c`.
+   The `SystemInit()` function configures the CPU main clock frequency, internal Flash access speed, and optional external SRAM FSMC initialization.
+   The main crystal oscillator of the Anfu STM32-V5 development board is 25MHz, and the internal PLL multiplies it to 168MHz.
+   If you need to change the main frequency, you can modify the following file:
+   `\User\bsp_stm32f4xx\system_stm32f4xx.c`
+   Several macros at the beginning of the file are PLL multiplier parameters. By modifying these macros, you can change the main frequency without modifying the hardware.
+  */
+
+
   HAL_Init();
   SystemClock_Config();
   MX_GPIO_Init();

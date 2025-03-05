@@ -1,0 +1,8 @@
+../Core/BSP/bsp_touch.c:30:9:TOUCH_GetKey	3
+../Core/BSP/bsp_touch.c:52:10:TOUCH_ReadAdcX	1
+../Core/BSP/bsp_touch.c:63:10:TOUCH_ReadAdcY	1
+../Core/BSP/bsp_touch.c:74:16:CalTwoPoint	1
+../Core/BSP/bsp_touch.c:79:16:TOUCH_TransX	4
+../Core/BSP/bsp_touch.c:137:9:TOUCH_GetX	1
+../Core/BSP/bsp_touch.c:142:16:TOUCH_TransY	4
+../Core/BSP/bsp_touch.c:200:9:TOUCH_GetY	1
