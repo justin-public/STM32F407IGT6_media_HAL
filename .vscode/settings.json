@@ -7,6 +7,9 @@
         "param.h": "c",
         "main_menu.h": "c",
         "touch_test.h": "c",
-        "hard_test.h": "c"
+        "hard_test.h": "c",
+        "main.h": "c",
+        "bsp_si4730.h": "c",
+        "bsp_hmc5883l.h": "c"
     }
 }

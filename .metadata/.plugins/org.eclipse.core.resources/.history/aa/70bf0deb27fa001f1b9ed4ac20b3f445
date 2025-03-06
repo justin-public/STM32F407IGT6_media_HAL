@@ -1,0 +1,24 @@
+/*
+ * bsp_nand_flash.c
+ *
+ *  Created on: Mar 6, 2025
+ *      Author: compro
+ */
+#include "bsp.h"
+
+
+static void FSMC_NAND_Init(void)
+{
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    NAND_HandleTypeDef hnand;
+    FMC_NAND_TimingTypeDef ComSpaceTiming = {0};    
+    FMC_NAND_TimingTypeDef AttSpaceTiming = {0};
+}
+
+uint8_t NAND_Init(void)
+{
+    uint8_t Status;
+
+    FSMC_NAND_Init();
+
+}

@@ -48,6 +48,13 @@
 #include "bsp_touch.h"
 #include "bsp_fsmc_sram.h"
 #include "bsp_nor_flash.h"
+#include "bsp_nand_flash.h"
+#include "bsp_si4730.h"
+#include "bsp_hmc5883l.h"
+#include "bsp_mpu6050.h"
+#include "bsp_bmp085.h"
+#include "bsp_wm8978.h"
+#include "bsp_bh1750.h"
 
 void bsp_Init(void);
 void bsp_Idle(void);

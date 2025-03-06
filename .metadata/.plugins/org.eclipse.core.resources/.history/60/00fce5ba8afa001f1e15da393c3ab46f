@@ -1,0 +1,13 @@
+/*
+ * bsp_eeprom_24xx.h
+ *
+ *  Created on: Mar 6, 2025
+ *      Author: compro
+ */
+
+#ifndef BSP_BSP_EEPROM_24XX_H_
+#define BSP_BSP_EEPROM_24XX_H_
+
+
+
+#endif /* BSP_BSP_EEPROM_24XX_H_ */

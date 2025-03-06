@@ -1,0 +1,29 @@
+/*
+ * bsp_i2c_gpio.c
+ *
+ *  Created on: Mar 6, 2025
+ *      Author: compro
+ */
+#include "bsp.h"
+
+#define GPIO_PORT_I2C	GPIOH
+
+/* Set/Reset SCL and SDA pins */
+#define I2C_SCL_1()  HAL_GPIO_WritePin(GPIO_PORT_I2C, I2C_SCL_PIN, GPIO_PIN_SET)    /* SCL = 1 */
+#define I2C_SCL_0()  HAL_GPIO_WritePin(GPIO_PORT_I2C, I2C_SCL_PIN, GPIO_PIN_RESET)  /* SCL = 0 */
+#define I2C_SDA_1()  HAL_GPIO_WritePin(GPIO_PORT_I2C, I2C_SDA_PIN, GPIO_PIN_SET)    /* SDA = 1 */
+#define I2C_SDA_0()  HAL_GPIO_WritePin(GPIO_PORT_I2C, I2C_SDA_PIN, GPIO_PIN_RESET)  /* SDA = 0 */
+
+/* Read SCL and SDA pin states */
+#define I2C_SDA_READ()  (HAL_GPIO_ReadPin(GPIO_PORT_I2C, I2C_SDA_PIN) == GPIO_PIN_SET)  /* Read SDA pin state */
+#define I2C_SCL_READ()  (HAL_GPIO_ReadPin(GPIO_PORT_I2C, I2C_SCL_PIN) == GPIO_PIN_SET)  /* Read SCL pin state */
+
+uint8_t i2c_CheckDevice(uint8_t _Address)
+{
+    uint8_t ucAck;
+
+    if (I2C_SDA_READ() && I2C_SCL_READ())
+    {
+        
+    }
+}

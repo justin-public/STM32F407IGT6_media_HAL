@@ -91,7 +91,151 @@ void HardInfo(void)
 
         if (id == S29GL128P)
         {
+            sprintf(buf, "NOR Flash ID = 0x%08X, Model = S29GL128P, OK", id);
+            printf("%s\r\n", buf);
+
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "NOR Flash ID = 0x%08X, Model = xxxx, Err", id);
+            printf("%s\r\n", buf);
+
+            tFont.FrontColor = CL_RED;
+            LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+    }
+    {
+        uint32_t id;
+        
+        NAND_Init();
+        
+        id = NAND_ReadID();
+
+        sprintf(buf, "NAND Flash ID = 0x%04X, Type = ", id);
+        if (id == HY27UF081G2A)
+        {
+            sprintf(buf, "NAND Flash ID = 0x%04X, Model = HY27UF081G2A, OK", id);
+            printf("%s\r\n", buf);
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "NAND Flash ID = 0x%04X, Model = Unknow, Err", id);
+			tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+    }
+    {
+        if (i2c_CheckDevice(EE_DEV_ADDR) == 0)
+        {
+        	sprintf(buf, "AT24C128 Ok (0x%02X)", EE_DEV_ADDR);
+            printf("%s\r\n", buf);
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "AT24C128 Err (0x%02X)", EE_DEV_ADDR);
+            printf("%s\r\n", buf);
             
+            tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+
+        if (i2c_CheckDevice(I2C_ADDR_SI4730_W) == 0)
+        {
+            sprintf(buf, "Si4730 Ok (0x%02X)", I2C_ADDR_SI4730_W);
+            printf("%s\r\n", buf);
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "Si4730 Err (0x%02X)", I2C_ADDR_SI4730_W);
+            printf("%s\r\n", buf);
+
+            tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+
+        if (i2c_CheckDevice(HMC5883L_SLAVE_ADDRESS) == 0)
+        {
+            sprintf(buf, "HMC5883L Ok (0x%02X)", HMC5883L_SLAVE_ADDRESS);
+            printf("%s\r\n", buf);
+			LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "HMC5883L Err (0x%02X)", HMC5883L_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
+
+            tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+
+        if (i2c_CheckDevice(MPU6050_SLAVE_ADDRESS) == 0)
+        {
+            sprintf(buf, "MPU6050 Ok (0x%02X)", MPU6050_SLAVE_ADDRESS);
+            printf("%s\r\n", buf);
+			LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "MPU6050 Err (0x%02X)", MPU6050_SLAVE_ADDRESS);
+            printf("%s\r\n", buf);
+
+			tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+
+        if (i2c_CheckDevice(BMP085_SLAVE_ADDRESS) == 0)
+        {
+            sprintf(buf, "BMP085 Ok (0x%02X)", BMP085_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
+			LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "BMP085 Err (0x%02X)", BMP085_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
+
+			tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+
+        if (i2c_CheckDevice(WM8978_SLAVE_ADDRESS) == 0)
+        {
+            sprintf(buf, "WM8978 Ok (0x%02X)", WM8978_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
+			LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "WM8978 Err (0x%02X)", WM8978_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
+
+			tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+        // 2025.03.06
+        if (i2c_CheckDevice(BH1750_SLAVE_ADDRESS) == 0)
+        {
+
         }
     }
 }
