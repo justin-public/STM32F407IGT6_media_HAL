@@ -24,15 +24,21 @@ Core/Src/bmp_file.o: ../Core/Src/bmp_file.c ../Core/FatFS/ff.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
- ../Core/Inc/stm32f4xx_hal_nand.h ../Core/Inc/stm32f4xx_ll_fsmc.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- ../Core/BSP/bsp_tft_lcd.h ../Core/BSP/LCD_RA8875.h \
- ../Core/BSP/bsp_ra8875_port.h ../Core/BSP/LCD_SPFD5420.h \
- ../Core/BSP/bsp_key.h ../Core/BSP/bsp_led.h ../Core/BSP/bsp_touch.h \
- ../Core/BSP/bsp_fsmc_sram.h ../Core/BSP/bsp_nor_flash.h \
- ../Core/BSP/bsp_nand_flash.h ../Core/BSP/bsp_i2c_gpio.h
+ ../Core/Inc/stm32f4xx_hal_nand.h ../Core/Inc/stm32f4xx_ll_fsmc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../Core/Inc/stm32f4xx_hal_sram.h ../Core/BSP/Inc/bsp_tft_lcd.h \
+ ../Core/BSP/Inc/LCD_RA8875.h ../Core/BSP/Inc/bsp_ra8875_port.h \
+ ../Core/BSP/Inc/LCD_SPFD5420.h ../Core/BSP/Inc/bsp_key.h \
+ ../Core/BSP/Inc/bsp_led.h ../Core/BSP/Inc/bsp_touch.h \
+ ../Core/BSP/Inc/bsp_fsmc_sram.h ../Core/BSP/Inc/bsp_nor_flash.h \
+ ../Core/BSP/Inc/bsp_nand_flash.h ../Core/BSP/Inc/bsp_si4730.h \
+ ../Core/BSP/Inc/bsp_hmc5883l.h ../Core/BSP/Inc/bsp_mpu6050.h \
+ ../Core/BSP/Inc/bsp_bmp085.h ../Core/BSP/Inc/bsp_wm8978.h \
+ ../Core/BSP/Inc/bsp_bh1750.h ../Core/BSP/Inc/bsp_spi_flash.h \
+ ../Core/BSP/Inc/bsp_eeprom_24xx.h ../Core/BSP/Inc/bsp_i2c_gpio.h \
+ ../Core/BSP/Inc/bsp_timer.h
 ../Core/FatFS/ff.h:
 ../Core/FatFS/integer.h:
 ../Core/FatFS/ffconf.h:
@@ -63,19 +69,29 @@ Core/Src/bmp_file.o: ../Core/Src/bmp_file.c ../Core/FatFS/ff.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Core/Inc/stm32f4xx_hal_nand.h:
 ../Core/Inc/stm32f4xx_ll_fsmc.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
-../Core/BSP/bsp_tft_lcd.h:
-../Core/BSP/LCD_RA8875.h:
-../Core/BSP/bsp_ra8875_port.h:
-../Core/BSP/LCD_SPFD5420.h:
-../Core/BSP/bsp_key.h:
-../Core/BSP/bsp_led.h:
-../Core/BSP/bsp_touch.h:
-../Core/BSP/bsp_fsmc_sram.h:
-../Core/BSP/bsp_nor_flash.h:
-../Core/BSP/bsp_nand_flash.h:
-../Core/BSP/bsp_i2c_gpio.h:
+../Core/Inc/stm32f4xx_hal_sram.h:
+../Core/BSP/Inc/bsp_tft_lcd.h:
+../Core/BSP/Inc/LCD_RA8875.h:
+../Core/BSP/Inc/bsp_ra8875_port.h:
+../Core/BSP/Inc/LCD_SPFD5420.h:
+../Core/BSP/Inc/bsp_key.h:
+../Core/BSP/Inc/bsp_led.h:
+../Core/BSP/Inc/bsp_touch.h:
+../Core/BSP/Inc/bsp_fsmc_sram.h:
+../Core/BSP/Inc/bsp_nor_flash.h:
+../Core/BSP/Inc/bsp_nand_flash.h:
+../Core/BSP/Inc/bsp_si4730.h:
+../Core/BSP/Inc/bsp_hmc5883l.h:
+../Core/BSP/Inc/bsp_mpu6050.h:
+../Core/BSP/Inc/bsp_bmp085.h:
+../Core/BSP/Inc/bsp_wm8978.h:
+../Core/BSP/Inc/bsp_bh1750.h:
+../Core/BSP/Inc/bsp_spi_flash.h:
+../Core/BSP/Inc/bsp_eeprom_24xx.h:
+../Core/BSP/Inc/bsp_i2c_gpio.h:
+../Core/BSP/Inc/bsp_timer.h:

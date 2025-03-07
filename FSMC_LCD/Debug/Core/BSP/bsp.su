@@ -1,1 +1,2 @@
-../Core/BSP/bsp.c:11:6:bsp_Idle	8	static
+../Core/BSP/bsp.c:10:6:bsp_Init	4	static
+../Core/BSP/bsp.c:16:6:bsp_Idle	8	static

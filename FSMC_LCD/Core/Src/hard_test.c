@@ -199,22 +199,22 @@ void HardInfo(void)
         }
         y += usLineCap;
 
-        if (i2c_CheckDevice(BMP085_SLAVE_ADDRESS) == 0)
-        {
-            sprintf(buf, "BMP085 Ok (0x%02X)", BMP085_SLAVE_ADDRESS);
-			printf("%s\r\n", buf);
-			LCD_DispStr(x, y, buf, &tFont);
-        }
-        else
-        {
-            sprintf(buf, "BMP085 Err (0x%02X)", BMP085_SLAVE_ADDRESS);
-			printf("%s\r\n", buf);
+        //if (i2c_CheckDevice(BMP085_SLAVE_ADDRESS) == 0)
+        //{
+            //sprintf(buf, "BMP085 Ok (0x%02X)", BMP085_SLAVE_ADDRESS);
+			//printf("%s\r\n", buf);
+			//LCD_DispStr(x, y, buf, &tFont);
+        //}
+        //else
+        //{
+            //sprintf(buf, "BMP085 Err (0x%02X)", BMP085_SLAVE_ADDRESS);
+			//printf("%s\r\n", buf);
 
-			tFont.FrontColor = CL_RED;
-			LCD_DispStr(x, y, buf, &tFont);
-			tFont.FrontColor = CL_WHITE;
-        }
-        y += usLineCap;
+			//tFont.FrontColor = CL_RED;
+			//LCD_DispStr(x, y, buf, &tFont);
+			//tFont.FrontColor = CL_WHITE;
+        //}
+        //y += usLineCap;
 
         if (i2c_CheckDevice(WM8978_SLAVE_ADDRESS) == 0)
         {
@@ -235,7 +235,113 @@ void HardInfo(void)
         // 2025.03.06
         if (i2c_CheckDevice(BH1750_SLAVE_ADDRESS) == 0)
         {
+            sprintf(buf, "BH1750 Ok (0x%02X)", BH1750_SLAVE_ADDRESS);
+            printf("%s\r\n", buf);
+			LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            sprintf(buf, "BH1750 Err (0x%02X)", BH1750_SLAVE_ADDRESS);
+			printf("%s\r\n", buf);
 
+			tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+        y += usLineCap;
+    }
+    {
+        sprintf(buf, "SPI Flash ID= = %08X, Model = %s",g_tSF.ChipID , g_tSF.ChipName);
+        printf("%s\r\n", buf);
+
+        if(g_tSF.ChipID == W25Q64BV_ID)
+        {
+            LCD_DispStr(x, y, buf, &tFont);
+        }
+        else
+        {
+            tFont.FrontColor = CL_RED;
+			LCD_DispStr(x, y, buf, &tFont);
+			tFont.FrontColor = CL_WHITE;
+        }
+    }
+    fRefresh = 1;	
+    while(1)
+    {
+        bsp_Idle();
+
+        if (fRefresh)
+        {
+            fRefresh = 0;
+            {
+				tBtn.Font = &tFontBtn;
+
+				tBtn.Left = BUTTON_RET_X;
+				tBtn.Top = BUTTON_RET_Y;
+				tBtn.Height = BUTTON_RET_H;
+				tBtn.Width = BUTTON_RET_W;
+				tBtn.Focus = 0;	
+				tBtn.pCaption = "·μ≫Ø";
+				LCD_DrawButton(&tBtn);
+			}
+        }
+        ucTouch = TOUCH_GetKey(&tpX, &tpY);	
+        if (ucTouch != TOUCH_NONE)
+        {
+            switch (ucTouch)
+            {
+                case TOUCH_DOWN:
+                    if (TOUCH_InRect(tpX, tpY, BUTTON_RET_X, BUTTON_RET_Y, BUTTON_RET_H, BUTTON_RET_W))
+                    {
+                        tBtn.Font = &tFontBtn;
+
+						tBtn.Left = BUTTON_RET_X;
+						tBtn.Top = BUTTON_RET_Y;
+						tBtn.Height = BUTTON_RET_H;
+						tBtn.Width = BUTTON_RET_W;
+						tBtn.Focus = 1;	
+						tBtn.pCaption = "Go back";
+                    }
+                break;
+                case TOUCH_RELEASE:
+                    if (TOUCH_InRect(tpX, tpY, BUTTON_RET_X, BUTTON_RET_Y, BUTTON_RET_H, BUTTON_RET_W))
+                    {
+                        tBtn.Font = &tFontBtn;
+
+						tBtn.Left = BUTTON_RET_X;
+						tBtn.Top = BUTTON_RET_Y;
+						tBtn.Height = BUTTON_RET_H;
+						tBtn.Width = BUTTON_RET_W;
+						tBtn.Focus = 1;	
+						tBtn.pCaption = "Go back";
+						LCD_DrawButton(&tBtn);
+
+                        return;
+                    }
+                    else
+                    {
+                        tBtn.Font = &tFontBtn;
+
+						tBtn.Left = BUTTON_RET_X;
+						tBtn.Top = BUTTON_RET_Y;
+						tBtn.Height = BUTTON_RET_H;
+						tBtn.Width = BUTTON_RET_W;
+						tBtn.Focus = 0;	
+						tBtn.pCaption = "Go back";
+						LCD_DrawButton(&tBtn);
+                    }
+            }
+        }
+        ucKeyCode = bsp_GetKey();
+        if (ucKeyCode != KEY_NONE)
+        {
+            switch (ucKeyCode)
+            {
+                case  JOY_DOWN_OK:		
+					return;
+                default:
+					break;
+            }
         }
     }
 }

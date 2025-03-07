@@ -1,2 +1,0 @@
-../Core/BSP/bsp_led.c:45:6:bsp_LedOn	16	static
-../Core/BSP/bsp_led.c:66:6:bsp_LedOff	16	static

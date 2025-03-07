@@ -1,0 +1,9 @@
+../Core/BSP/Src/bsp_nand_flash.c:26:13:BSP_FSMC_NAND_Init	1
+../Core/BSP/Src/bsp_nand_flash.c:118:16:BSP_FSMC_NAND_Reset	2
+../Core/BSP/Src/bsp_nand_flash.c:129:16:FSMC_NAND_ReadStatus	3
+../Core/BSP/Src/bsp_nand_flash.c:152:16:FSMC_NAND_GetStatus	4
+../Core/BSP/Src/bsp_nand_flash.c:171:16:FSMC_NAND_ReadPage	4
+../Core/BSP/Src/bsp_nand_flash.c:202:16:FSMC_NAND_ReadSpare	2
+../Core/BSP/Src/bsp_nand_flash.c:211:9:NAND_Init	1
+../Core/BSP/Src/bsp_nand_flash.c:223:16:NAND_BuildLUT	11
+../Core/BSP/Src/bsp_nand_flash.c:272:10:NAND_ReadID	1

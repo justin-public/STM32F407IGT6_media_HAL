@@ -14,6 +14,7 @@ RM := rm -rf
 -include Core/Src/subdir.mk
 -include Core/Images/subdir.mk
 -include Core/FatFS/subdir.mk
+-include Core/BSP/Src/subdir.mk
 -include Core/BSP/subdir.mk
 -include objects.mk
 

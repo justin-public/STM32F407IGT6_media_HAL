@@ -1,2 +1,5 @@
 1741222635253	Delete resource 'FSMC_LCD/Core/Inc/stm32f1xx_hal_nand.h'
 1741222643707	Delete resource 'FSMC_LCD/Core/Src/stm32f1xx_hal_nand.c'
+1741310464672	Delete resource 'FSMC_LCD/Core/Src/hard_test.h'
+1741310516418	Delete resource 'FSMC_LCD/Core/Src/param.h'
+1741310554793	Delete resource 'FSMC_LCD/Core/Src/touch_test.h'

@@ -4,8 +4,12 @@
 #include "main_menu.h"
 #include "touch_test.h"
 #include "hard_test.h"
+#include "http_server.h"
 
-
+#define PLL_M      25      // 외부 25MHz 크리스탈 사용
+#define PLL_N      336     // 25MHz * 336 = 8400MHz
+#define PLL_P      2       // 8400MHz / 2 = 168MHz (SYSCLK)
+#define PLL_Q      7       // USB OTG FS, SDIO, RNG 클럭용 (PLL 출력 / 7)
 
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -21,11 +25,14 @@ int main(void)
    `\User\bsp_stm32f4xx\system_stm32f4xx.c`
    Several macros at the beginning of the file are PLL multiplier parameters. By modifying these macros, you can change the main frequency without modifying the hardware.
   */
+  uint16_t ucStatus; 
 
-
-  HAL_Init();
+  bsp_Init();
+  
+  
+  //HAL_Init();
   SystemClock_Config();
-  MX_GPIO_Init();
+  //MX_GPIO_Init();
   
   while (1)
   {
@@ -39,39 +46,33 @@ int main(void)
   */
 void SystemClock_Config(void)
 {
-  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+	RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+	RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
 
-  /** Configure the main internal regulator output voltage
-  */
-  __HAL_RCC_PWR_CLK_ENABLE();
-  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+	RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+	RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+	RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+	RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+	RCC_OscInitStruct.PLL.PLLM = PLL_M;
+	RCC_OscInitStruct.PLL.PLLN = PLL_N;
+	RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+	RCC_OscInitStruct.PLL.PLLQ = PLL_Q;
+	if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+	{
+		Error_Handler();
+	}
+	RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+            					|RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+	RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+	RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;            // HCLK = SYSCLK = 168MHz
+	RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4; 			      // APB1 = HCLK/4 = 42MHz
+	RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2; 			      // APB2 = HCLK/2 = 84MHz
 
-  /** Initializes the RCC Oscillators according to the specified parameters
-  * in the RCC_OscInitTypeDef structure.
-  */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
-  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    Error_Handler();
-  }
-
-  /** Initializes the CPU, AHB and APB buses clocks
-  */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
-  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
-  {
-    Error_Handler();
-  }
+	// Flash 레이턴시 설정 (168MHz에서는 5 wait states 필요)
+	if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+	{
+		Error_Handler();
+	}
 }
 
 /**

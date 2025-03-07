@@ -55,6 +55,10 @@
 #include "bsp_bmp085.h"
 #include "bsp_wm8978.h"
 #include "bsp_bh1750.h"
+#include "bsp_spi_flash.h"
+#include "bsp_eeprom_24xx.h"
+#include "bsp_i2c_gpio.h"
+#include "bsp_timer.h"
 
 void bsp_Init(void);
 void bsp_Idle(void);

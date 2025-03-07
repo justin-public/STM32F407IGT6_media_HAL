@@ -1,9 +1,0 @@
-../Core/BSP/LCD_SPFD5420.c:24:6:SPFD5420_ClrScr	24	static
-../Core/BSP/LCD_SPFD5420.c:36:13:SPFD5420_SetCursor	16	static
-../Core/BSP/LCD_SPFD5420.c:42:13:SPFD5420_WriteReg	16	static
-../Core/BSP/LCD_SPFD5420.c:48:6:SPFD5420_PutPixel	16	static
-../Core/BSP/LCD_SPFD5420.c:58:6:SPFD5420_SetBackLight	128	static
-../Core/BSP/LCD_SPFD5420.c:192:6:SPFD5420_DrawCircle	40	static
-../Core/BSP/LCD_SPFD5420.c:226:6:SPFD5420_DrawLine	72	static
-../Core/BSP/LCD_SPFD5420.c:295:6:SPFD5420_DrawRect	32	static
-../Core/BSP/LCD_SPFD5420.c:303:6:SPFD5420_DrawHLine	32	static

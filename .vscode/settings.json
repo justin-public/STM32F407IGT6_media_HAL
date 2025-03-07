@@ -10,6 +10,8 @@
         "hard_test.h": "c",
         "main.h": "c",
         "bsp_si4730.h": "c",
-        "bsp_hmc5883l.h": "c"
+        "bsp_hmc5883l.h": "c",
+        "bsp_spi_flash.h": "c",
+        "bsp_timer.h": "c"
     }
 }

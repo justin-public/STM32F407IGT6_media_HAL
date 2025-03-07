@@ -474,3 +474,145 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-03-06 22:20:57.697
 !MESSAGE Indexed 'FSMC_LCD' (56 sources, 116 headers) in 3.26 sec: 6,735 declarations; 26,597 references; 0 unresolved inclusions; 1 syntax errors; 7 unresolved names (0.021%)
+!SESSION 2025-03-07 09:05:08.923 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-03-07 09:05:58.043
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 09:06:05.045
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 09:06:05.056
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 09:06:16.150
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 09:06:22.285
+!MESSAGE Indexed 'FSMC_LCD' (56 sources, 118 headers) in 5.08 sec: 6,735 declarations; 26,656 references; 0 unresolved inclusions; 3 syntax errors; 6 unresolved names (0.018%)
+!SESSION 2025-03-07 10:05:05.735 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 10:05:20.247
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 10:05:20.250
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 10:05:26.582
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:05:31.038
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 120 headers) in 3.58 sec: 6,746 declarations; 26,861 references; 0 unresolved inclusions; 3 syntax errors; 3 unresolved names (0.0089%)
+!SESSION 2025-03-07 10:30:00.870 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 10:30:07.909
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 10:30:07.911
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 10:30:13.776
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:30:18.324
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 122 headers) in 3.42 sec: 6,757 declarations; 26,843 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.006%)
+!SESSION 2025-03-07 10:30:36.934 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 10:30:43.109
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 10:30:43.111
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 10:30:48.423
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:30:52.812
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 122 headers) in 3.3 sec: 6,757 declarations; 26,843 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.006%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:32:01.268
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 122 headers) in 2.34 sec: 6,757 declarations; 26,843 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.006%)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-03-07 10:32:11.758
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ecf.filetransfer.FileTransferJob
+!SESSION 2025-03-07 10:32:53.313 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 10:32:59.739
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 10:32:59.741
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 10:33:05.270
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:33:09.921
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 122 headers) in 3.59 sec: 6,757 declarations; 26,843 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.006%)
+!SESSION 2025-03-07 10:35:19.389 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 10:35:25.644
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 10:35:25.646
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 10:35:31.584
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 10:35:36.099
+!MESSAGE Indexed 'FSMC_LCD' (57 sources, 122 headers) in 3.42 sec: 6,757 declarations; 26,843 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.006%)
+!SESSION 2025-03-07 22:43:23.308 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-03-07 22:43:34.039
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-03-07 22:43:34.042
+!MESSAGE Log4j2 initialized with config file D:\work_code\STM32F407IGT6_media_HAL\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-03-07 22:43:40.625
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-03-07 22:43:45.572
+!MESSAGE Indexed 'FSMC_LCD' (58 sources, 122 headers) in 3.2 sec: 6,565 declarations; 23,157 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.01%)

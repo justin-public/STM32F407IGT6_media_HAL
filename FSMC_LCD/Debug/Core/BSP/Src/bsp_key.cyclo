@@ -1,0 +1,2 @@
+../Core/BSP/Src/bsp_key.c:11:9:bsp_GetKey	3
+../Core/BSP/Src/bsp_key.c:30:9:bsp_GetKey2	3

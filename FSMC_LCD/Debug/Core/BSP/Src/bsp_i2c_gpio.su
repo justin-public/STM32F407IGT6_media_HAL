@@ -1,0 +1,6 @@
+../Core/BSP/Src/bsp_i2c_gpio.c:24:13:i2c_Delay	16	static
+../Core/BSP/Src/bsp_i2c_gpio.c:31:6:i2c_Start	8	static
+../Core/BSP/Src/bsp_i2c_gpio.c:42:6:i2c_SendByte	24	static
+../Core/BSP/Src/bsp_i2c_gpio.c:69:9:i2c_CheckDevice	24	static
+../Core/BSP/Src/bsp_i2c_gpio.c:86:9:i2c_WaitAck	16	static
+../Core/BSP/Src/bsp_i2c_gpio.c:107:6:i2c_Stop	8	static

@@ -1,0 +1,17 @@
+../Core/BSP/Src/bsp_tft_lcd.c:16:10:LCD_GetWidth	4	static
+../Core/BSP/Src/bsp_tft_lcd.c:21:10:LCD_GetHeight	4	static
+../Core/BSP/Src/bsp_tft_lcd.c:26:6:LCD_ClrScr	16	static
+../Core/BSP/Src/bsp_tft_lcd.c:38:6:LCD_DrawBMP	32	static
+../Core/BSP/Src/bsp_tft_lcd.c:50:10:Blend565	24	static
+../Core/BSP/Src/bsp_tft_lcd.c:61:13:LCD_CtrlLinesConfig	48	static
+../Core/BSP/Src/bsp_tft_lcd.c:88:13:LCD_FSMCConfig	128	static
+../Core/BSP/Src/bsp_tft_lcd.c:139:6:LCD_DrawIcon32	48	static
+../Core/BSP/Src/bsp_tft_lcd.c:215:6:LCD_InitHard	16	static
+../Core/BSP/Src/bsp_tft_lcd.c:233:6:LCD_DispStr	128	static
+../Core/BSP/Src/bsp_tft_lcd.c:353:6:LCD_PutPixel	16	static
+../Core/BSP/Src/bsp_tft_lcd.c:365:6:LCD_SetBackLight	16	static
+../Core/BSP/Src/bsp_tft_lcd.c:379:6:LCD_GetChipDescribe	16	static
+../Core/BSP/Src/bsp_tft_lcd.c:405:6:LCD_DrawCircle	24	static
+../Core/BSP/Src/bsp_tft_lcd.c:417:6:LCD_DrawButton	40	static
+../Core/BSP/Src/bsp_tft_lcd.c:520:6:LCD_DrawRect	32	static
+../Core/BSP/Src/bsp_tft_lcd.c:532:6:LCD_Fill_Rect	40	static

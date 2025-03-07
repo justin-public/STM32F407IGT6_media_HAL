@@ -1,112 +1,34 @@
-17:59:49 **** Build of configuration Debug for project FSMC_LCD ****
+23:40:49 **** Build of configuration Debug for project FSMC_LCD ****
 make -j6 all 
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
 arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f407igtx.d" -MT"Core/Startup/startup_stm32f407igtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f407igtx.o" "../Core/Startup/startup_stm32f407igtx.s"
-arm-none-eabi-gcc "../Core/Src/bmp_file.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmp_file.d" -MT"Core/Src/bmp_file.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmp_file.o"
-arm-none-eabi-gcc "../Core/Src/hard_test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hard_test.d" -MT"Core/Src/hard_test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hard_test.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/main_menu.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_menu.d" -MT"Core/Src/main_menu.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_menu.o"
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Inc/bmp_file.h:11,
-                 from ../Core/Src/bmp_file.c:8:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
-   40 | #define NAND_ERROR                 ((uint8_t)0x01)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/Inc/bmp_file.h:11,
-                 from ../Core/Src/bmp_file.c:8:
-../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
-  318 | #define NAND_ERROR                 0x00000001UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Inc/bmp_file.h:11,
-                 from ../Core/Src/bmp_file.c:8:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
-   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/Inc/bmp_file.h:11,
-                 from ../Core/Src/bmp_file.c:8:
-../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
-  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
-      | 
-../Core/Src/bmp_file.c:29:1: warning: 'packed' attribute ignored [-Wattributes]
-   29 | }BMP_T;
-      | ^
-../Core/Src/bmp_file.c:31:1: warning: 'packed' attribute ignored [-Wattributes]
-   31 | static void MakeBmpHeader(__packed BMP_T *_pBmp, uint16_t _Width, uint16_t _Height)
-      | ^~~~~~
-../Core/Src/bmp_file.c: In function 'SaveScreenToBmp':
-../Core/Src/bmp_file.c:54:5: warning: 'packed' attribute ignored [-Wattributes]
-   54 |     __packed BMP_T tBmpHead;
-      |     ^~~~~~~~
-../Core/Src/bmp_file.c:75:29: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' {aka 'long int'} [-Wformat=]
-   75 |         sprintf(path, "%d:/%dx%d_%02d.bmp", ucVolume, tBmpHead.biWidth, tBmpHead.biHeight, _index);
-      |                            ~^                         ~~~~~~~~~~~~~~~~
-      |                             |                                 |
-      |                             int                               int32_t {aka long int}
-      |                            %ld
-../Core/Src/bmp_file.c:75:32: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' {aka 'long int'} [-Wformat=]
-   75 |         sprintf(path, "%d:/%dx%d_%02d.bmp", ucVolume, tBmpHead.biWidth, tBmpHead.biHeight, _index);
-      |                               ~^                                        ~~~~~~~~~~~~~~~~~
-      |                                |                                                |
-      |                                int                                              int32_t {aka long int}
-      |                               %ld
-../Core/Src/bmp_file.c:84:52: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
-   84 |     result = f_write(&file, (char *)&tBmpHead, 54, &bw);
-      |                                                    ^~~
-      |                                                    |
-      |                                                    uint32_t * {aka long unsigned int *}
-In file included from ../Core/Src/bmp_file.c:7:
-../Core/FatFS/ff.h:204:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
-  204 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to a file */
-      |                                                       ~~~~~~^~
-../Core/Src/bmp_file.c:130:74: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
-  130 |                         result = f_write(&file, &LineData[480 * j], 480, &bw);
-      |                                                                          ^~~
-      |                                                                          |
-      |                                                                          uint32_t * {aka long unsigned int *}
-In file included from ../Core/Src/bmp_file.c:7:
-../Core/FatFS/ff.h:204:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
-  204 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to a file */
-      |                                                       ~~~~~~^~
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Inc/bmp_file.h:11,
-                 from ../Core/Src/bmp_file.c:8:
-At top level:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
-arm-none-eabi-gcc "../Core/Src/param.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/param.d" -MT"Core/Src/param.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/param.o"
-   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
-      |                 ^~~~~~~
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/bmp_file.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmp_file.d" -MT"Core/Src/bmp_file.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmp_file.o"
+arm-none-eabi-gcc "../Core/Src/hard_test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hard_test.d" -MT"Core/Src/hard_test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hard_test.o"
+arm-none-eabi-gcc "../Core/Src/http_server.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/http_server.d" -MT"Core/Src/http_server.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/http_server.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main_menu.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_menu.d" -MT"Core/Src/main_menu.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_menu.o"
+arm-none-eabi-gcc "../Core/Src/param.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/param.d" -MT"Core/Src/param.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/param.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/hard_test.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/hard_test.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
@@ -114,12 +36,10 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/hard_test.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/hard_test.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
@@ -174,41 +94,99 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       |                                                |                        |
       |                                                unsigned int             uint32_t {aka long unsigned int}
       |                                             %04lX
-../Core/Src/hard_test.c:26:18: warning: unused variable 'tBtn' [-Wunused-variable]
-   26 |         BUTTON_T tBtn;
-      |                  ^~~~
-../Core/Src/hard_test.c:25:22: warning: unused variable 'tpY' [-Wunused-variable]
-   25 |         int16_t tpX, tpY;
-      |                      ^~~
-../Core/Src/hard_test.c:25:17: warning: unused variable 'tpX' [-Wunused-variable]
-   25 |         int16_t tpX, tpY;
-      |                 ^~~
-../Core/Src/hard_test.c:20:23: warning: variable 'tFontBtn' set but not used [-Wunused-but-set-variable]
-   20 |         FONT_T tFont, tFontBtn;
-      |                       ^~~~~~~~
-../Core/Src/hard_test.c:19:17: warning: unused variable 'fRefresh' [-Wunused-variable]
-   19 |         uint8_t fRefresh;
-      |                 ^~~~~~~~
-../Core/Src/hard_test.c:18:17: warning: unused variable 'ucTouch' [-Wunused-variable]
-   18 |         uint8_t ucTouch;
-      |                 ^~~~~~~
-../Core/Src/hard_test.c:17:13: warning: unused variable 'ucKeyCode' [-Wunused-variable]
-   17 |     uint8_t ucKeyCode;
-      |             ^~~~~~~~~
+../Core/Src/hard_test.c:254:42: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  254 |         sprintf(buf, "SPI Flash ID= = %08X, Model = %s",g_tSF.ChipID , g_tSF.ChipName);
+      |                                       ~~~^              ~~~~~~~~~~~~
+      |                                          |                   |
+      |                                          unsigned int        uint32_t {aka long unsigned int}
+      |                                       %08lX
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/hard_test.c:7:
 At top level:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Src/main.c:1:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/Inc/bmp_file.h:11,
+                 from ../Core/Src/bmp_file.c:8:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/Inc/bmp_file.h:11,
+                 from ../Core/Src/bmp_file.c:8:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Inc/bmp_file.h:11,
+                 from ../Core/Src/bmp_file.c:8:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/Inc/bmp_file.h:11,
+                 from ../Core/Src/bmp_file.c:8:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+../Core/Src/bmp_file.c:29:1: warning: 'packed' attribute ignored [-Wattributes]
+   29 | }BMP_T;
+      | ^
+../Core/Src/bmp_file.c:31:1: warning: 'packed' attribute ignored [-Wattributes]
+   31 | static void MakeBmpHeader(__packed BMP_T *_pBmp, uint16_t _Width, uint16_t _Height)
+      | ^~~~~~
+../Core/Src/bmp_file.c: In function 'SaveScreenToBmp':
+../Core/Src/bmp_file.c:54:5: warning: 'packed' attribute ignored [-Wattributes]
+   54 |     __packed BMP_T tBmpHead;
+      |     ^~~~~~~~
+../Core/Src/bmp_file.c:75:29: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' {aka 'long int'} [-Wformat=]
+   75 |         sprintf(path, "%d:/%dx%d_%02d.bmp", ucVolume, tBmpHead.biWidth, tBmpHead.biHeight, _index);
+      |                            ~^                         ~~~~~~~~~~~~~~~~
+      |                             |                                 |
+      |                             int                               int32_t {aka long int}
+      |                            %ld
+../Core/Src/bmp_file.c:75:32: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' {aka 'long int'} [-Wformat=]
+   75 |         sprintf(path, "%d:/%dx%d_%02d.bmp", ucVolume, tBmpHead.biWidth, tBmpHead.biHeight, _index);
+      |                               ~^                                        ~~~~~~~~~~~~~~~~~
+      |                                |                                                |
+      |                                int                                              int32_t {aka long int}
+      |                               %ld
+../Core/Src/bmp_file.c:84:52: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+   84 |     result = f_write(&file, (char *)&tBmpHead, 54, &bw);
+      |                                                    ^~~
+      |                                                    |
+      |                                                    uint32_t * {aka long unsigned int *}
+In file included from ../Core/Src/bmp_file.c:7:
+../Core/FatFS/ff.h:204:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  204 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to a file */
+      |                                                       ~~~~~~^~
+../Core/Src/bmp_file.c:130:74: warning: passing argument 4 of 'f_write' from incompatible pointer type [-Wincompatible-pointer-types]
+  130 |                         result = f_write(&file, &LineData[480 * j], 480, &bw);
+      |                                                                          ^~~
+      |                                                                          |
+      |                                                                          uint32_t * {aka long unsigned int *}
+In file included from ../Core/Src/bmp_file.c:7:
+../Core/FatFS/ff.h:204:61: note: expected 'UINT *' {aka 'unsigned int *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  204 | FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);        /* Write data to a file */
+      |                                                       ~~~~~~^~
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Inc/bmp_file.h:11,
+                 from ../Core/Src/bmp_file.c:8:
+At top level:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_nand.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_nand.d" -MT"Core/Src/stm32f4xx_hal_nand.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_nand.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_sram.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_sram.d" -MT"Core/Src/stm32f4xx_hal_sram.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_sram.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Src/main.c:1:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/main.c:1:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
@@ -216,65 +194,35 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/main.c:1:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/main.c:1:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:28:12: warning: unused variable 'ucStatus' [-Wunused-variable]
+   28 |   uint16_t ucStatus;
+      |            ^~~~~~~~
+At top level:
+../Core/Src/main.c:83:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+   83 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/main.c:1:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_nand.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_nand.d" -MT"Core/Src/stm32f4xx_hal_nand.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_nand.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_ll_fsmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_ll_fsmc.d" -MT"Core/Src/stm32f4xx_ll_fsmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_ll_fsmc.o"
-arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Src/param.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
-   40 | #define NAND_ERROR                 ((uint8_t)0x01)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/Src/param.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
-  318 | #define NAND_ERROR                 0x00000001UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Src/param.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
-   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/Src/param.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
-  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Src/param.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
-   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
-      |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/main_menu.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/main_menu.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
@@ -282,12 +230,10 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/main_menu.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/main_menu.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
@@ -295,26 +241,56 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/main_menu.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
-arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
-arm-none-eabi-gcc "../Core/Src/touch_test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/touch_test.d" -MT"Core/Src/touch_test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/touch_test.o"
-arm-none-eabi-gcc "../Core/Images/ADC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/ADC.d" -MT"Core/Images/ADC.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/ADC.o"
-arm-none-eabi-gcc "../Core/Images/Camera.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Camera.d" -MT"Core/Images/Camera.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Camera.o"
-arm-none-eabi-gcc "../Core/Images/ChiLun.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/ChiLun.d" -MT"Core/Images/ChiLun.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/ChiLun.o"
-arm-none-eabi-gcc "../Core/Images/GPS.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/GPS.d" -MT"Core/Images/GPS.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/GPS.o"
-arm-none-eabi-gcc "../Core/Images/LCD.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/LCD.d" -MT"Core/Images/LCD.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/LCD.o"
-arm-none-eabi-gcc "../Core/Images/MP3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/MP3.d" -MT"Core/Images/MP3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/MP3.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/Src/touch_test.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/Src/param.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/Src/param.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Src/param.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/Src/param.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_ll_fsmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_ll_fsmc.d" -MT"Core/Src/stm32f4xx_ll_fsmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_ll_fsmc.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Src/param.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Core/Src/touch_test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/touch_test.d" -MT"Core/Src/touch_test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/touch_test.o"
+arm-none-eabi-gcc "../Core/Images/ADC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/ADC.d" -MT"Core/Images/ADC.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/ADC.o"
+arm-none-eabi-gcc "../Core/Images/Camera.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Camera.d" -MT"Core/Images/Camera.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Camera.o"
+arm-none-eabi-gcc "../Core/Images/ChiLun.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/ChiLun.d" -MT"Core/Images/ChiLun.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/ChiLun.o"
+arm-none-eabi-gcc "../Core/Images/GPS.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/GPS.d" -MT"Core/Images/GPS.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/GPS.o"
+arm-none-eabi-gcc "../Core/Images/LCD.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/LCD.d" -MT"Core/Images/LCD.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/LCD.o"
+arm-none-eabi-gcc "../Core/Images/MP3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/MP3.d" -MT"Core/Images/MP3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/MP3.o"
+arm-none-eabi-gcc "../Core/Images/Phone.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Phone.d" -MT"Core/Images/Phone.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Phone.o"
+arm-none-eabi-gcc "../Core/Images/Recorder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Recorder.d" -MT"Core/Images/Recorder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Recorder.o"
+arm-none-eabi-gcc "../Core/Images/USBDisk.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/USBDisk.d" -MT"Core/Images/USBDisk.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/USBDisk.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/Src/touch_test.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/touch_test.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
@@ -322,12 +298,10 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/touch_test.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/Src/touch_test.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
@@ -343,22 +317,20 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/Src/touch_test.c:7:
 At top level:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
-arm-none-eabi-gcc "../Core/Images/Phone.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Phone.d" -MT"Core/Images/Phone.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Phone.o"
-arm-none-eabi-gcc "../Core/Images/Recorder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Recorder.d" -MT"Core/Images/Recorder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Recorder.o"
-arm-none-eabi-gcc "../Core/Images/USBDisk.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/USBDisk.d" -MT"Core/Images/USBDisk.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/USBDisk.o"
-arm-none-eabi-gcc "../Core/Images/Wireless.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Wireless.d" -MT"Core/Images/Wireless.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Wireless.o"
-arm-none-eabi-gcc "../Core/Images/chujiao.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/chujiao.d" -MT"Core/Images/chujiao.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/chujiao.o"
-arm-none-eabi-gcc "../Core/Images/hwinfo.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/hwinfo.d" -MT"Core/Images/hwinfo.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/hwinfo.o"
-arm-none-eabi-gcc "../Core/Images/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/radio.d" -MT"Core/Images/radio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/radio.o"
-arm-none-eabi-gcc "../Core/Images/web.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/web.d" -MT"Core/Images/web.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/web.o"
-arm-none-eabi-gcc "../Core/FatFS/diskio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/FatFS/diskio.d" -MT"Core/FatFS/diskio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/FatFS/diskio.o"
-arm-none-eabi-gcc "../Core/FatFS/ff.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/FatFS/ff.d" -MT"Core/FatFS/ff.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/FatFS/ff.o"
-arm-none-eabi-gcc "../Core/BSP/LCD_RA8875.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/LCD_RA8875.d" -MT"Core/BSP/LCD_RA8875.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/LCD_RA8875.o"
-arm-none-eabi-gcc "../Core/BSP/LCD_SPFD5420.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/LCD_SPFD5420.d" -MT"Core/BSP/LCD_SPFD5420.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/LCD_SPFD5420.o"
-arm-none-eabi-gcc "../Core/BSP/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp.d" -MT"Core/BSP/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp.o"
+arm-none-eabi-gcc "../Core/Images/Wireless.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/Wireless.d" -MT"Core/Images/Wireless.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/Wireless.o"
+arm-none-eabi-gcc "../Core/Images/chujiao.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/chujiao.d" -MT"Core/Images/chujiao.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/chujiao.o"
+arm-none-eabi-gcc "../Core/Images/hwinfo.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/hwinfo.d" -MT"Core/Images/hwinfo.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/hwinfo.o"
+arm-none-eabi-gcc "../Core/Images/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/radio.d" -MT"Core/Images/radio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/radio.o"
+arm-none-eabi-gcc "../Core/Images/web.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Images/web.d" -MT"Core/Images/web.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Images/web.o"
+arm-none-eabi-gcc "../Core/FatFS/diskio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/FatFS/diskio.d" -MT"Core/FatFS/diskio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/FatFS/diskio.o"
+arm-none-eabi-gcc "../Core/FatFS/ff.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/FatFS/ff.d" -MT"Core/FatFS/ff.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/FatFS/ff.o"
+arm-none-eabi-gcc "../Core/BSP/Src/LCD_RA8875.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/LCD_RA8875.d" -MT"Core/BSP/Src/LCD_RA8875.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/LCD_RA8875.o"
+arm-none-eabi-gcc "../Core/BSP/Src/LCD_SPFD5420.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/LCD_SPFD5420.d" -MT"Core/BSP/Src/LCD_SPFD5420.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/LCD_SPFD5420.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_bh1750.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_bh1750.d" -MT"Core/BSP/Src/bsp_bh1750.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_bh1750.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_bmp085.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_bmp085.d" -MT"Core/BSP/Src/bsp_bmp085.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_bmp085.o"
 ../Core/FatFS/ff.c:379:9: warning: 'Files' defined but not used [-Wunused-variable]
   379 | FILESEM Files[_FS_LOCK];        /* File lock semaphores */
       |         ^~~~~
@@ -368,16 +340,16 @@ arm-none-eabi-gcc "../Core/BSP/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DU
 ../Core/FatFS/ff.c:364:8: warning: 'FatFs' defined but not used [-Wunused-variable]
   364 | FATFS *FatFs[_VOLUMES]; /* Pointer to the file system objects (logical drives) */
       |        ^~~~~
-arm-none-eabi-gcc "../Core/BSP/bsp_fsmc_sram.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_fsmc_sram.d" -MT"Core/BSP/bsp_fsmc_sram.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_fsmc_sram.o"
-arm-none-eabi-gcc "../Core/BSP/bsp_i2c_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_i2c_gpio.d" -MT"Core/BSP/bsp_i2c_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_i2c_gpio.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_eeprom_24xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_eeprom_24xx.d" -MT"Core/BSP/Src/bsp_eeprom_24xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_eeprom_24xx.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_fsmc_sram.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_fsmc_sram.d" -MT"Core/BSP/Src/bsp_fsmc_sram.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_fsmc_sram.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_hmc5883l.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_hmc5883l.d" -MT"Core/BSP/Src/bsp_hmc5883l.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_hmc5883l.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_i2c_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_i2c_gpio.d" -MT"Core/BSP/Src/bsp_i2c_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_i2c_gpio.o"
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/FatFS/diskio.c:8:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/FatFS/diskio.c:8:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
@@ -385,12 +357,10 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/FatFS/diskio.c:8:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
                  from ../Core/FatFS/diskio.c:8:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
@@ -398,387 +368,400 @@ In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
       | 
 In file included from ../Core/BSP/bsp.h:51,
                  from ../Core/FatFS/diskio.c:8:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/LCD_RA8875.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/LCD_RA8875.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/LCD_RA8875.c:7:
+                 from ../Core/BSP/Src/LCD_RA8875.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/LCD_RA8875.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/LCD_RA8875.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/LCD_RA8875.c:7:
+                 from ../Core/BSP/Src/LCD_RA8875.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
-../Core/BSP/LCD_RA8875.c: In function 'RA8875_DrawBMP':
-../Core/BSP/LCD_RA8875.c:75:25: warning: unused variable 'p' [-Wunused-variable]
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_key.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_key.d" -MT"Core/BSP/Src/bsp_key.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_key.o"
+../Core/BSP/Src/LCD_RA8875.c: In function 'RA8875_DrawBMP':
+../Core/BSP/Src/LCD_RA8875.c:75:25: warning: unused variable 'p' [-Wunused-variable]
    75 |         const uint16_t *p;
       |                         ^
-../Core/BSP/LCD_RA8875.c:74:14: warning: unused variable 'index' [-Wunused-variable]
+../Core/BSP/Src/LCD_RA8875.c:74:14: warning: unused variable 'index' [-Wunused-variable]
    74 |     uint32_t index = 0;
       |              ^~~~~
-../Core/BSP/LCD_RA8875.c: In function 'RA8875_PutPixel':
-../Core/BSP/LCD_RA8875.c:124:9: warning: implicit declaration of function 'RA8875_WriteData16'; did you mean 'RA8875_WriteData'? [-Wimplicit-function-declaration]
+../Core/BSP/Src/LCD_RA8875.c: In function 'RA8875_PutPixel':
+../Core/BSP/Src/LCD_RA8875.c:124:9: warning: implicit declaration of function 'RA8875_WriteData16'; did you mean 'RA8875_WriteData'? [-Wimplicit-function-declaration]
   124 |         RA8875_WriteData16(_usColor);
       |         ^~~~~~~~~~~~~~~~~~
       |         RA8875_WriteData
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/LCD_RA8875.c:7:
+                 from ../Core/BSP/Src/LCD_RA8875.c:7:
 At top level:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp.c:8:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
-   40 | #define NAND_ERROR                 ((uint8_t)0x01)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp.c:8:
-../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
-  318 | #define NAND_ERROR                 0x00000001UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp.c:8:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
-   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp.c:8:
-../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
-  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp.c:8:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
-   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
-      |                 ^~~~~~~
-../Core/BSP/LCD_SPFD5420.c: In function 'SPFD5420_SetBackLight':
-../Core/BSP/LCD_SPFD5420.c:112:9: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
-  112 |         Error_Handler();
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_led.d" -MT"Core/BSP/Src/bsp_led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_led.o"
+../Core/BSP/Src/LCD_SPFD5420.c: In function 'SPFD5420_SetBackLight':
+../Core/BSP/Src/LCD_SPFD5420.c:115:9: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+  115 |         Error_Handler();
       |         ^~~~~~~~~~~~~
-arm-none-eabi-gcc "../Core/BSP/bsp_key.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_key.d" -MT"Core/BSP/bsp_key.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_key.o"
-../Core/BSP/LCD_SPFD5420.c:126:5: warning: implicit declaration of function '__HAL_TIM_ENABLE_PRELOAD' [-Wimplicit-function-declaration]
-  126 |     __HAL_TIM_ENABLE_PRELOAD(&htim8);
+../Core/BSP/Src/LCD_SPFD5420.c:129:5: warning: implicit declaration of function '__HAL_TIM_ENABLE_PRELOAD' [-Wimplicit-function-declaration]
+  129 |     __HAL_TIM_ENABLE_PRELOAD(&htim8);
       |     ^~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_fsmc_sram.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
-   40 | #define NAND_ERROR                 ((uint8_t)0x01)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_fsmc_sram.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
-  318 | #define NAND_ERROR                 0x00000001UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_fsmc_sram.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
-   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_fsmc_sram.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
-  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_fsmc_sram.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
-   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
-      |                 ^~~~~~~
-../Core/BSP/LCD_SPFD5420.c:130:5: warning: implicit declaration of function 'HAL_TIMEx_EnableDeadTimeBreakPreload' [-Wimplicit-function-declaration]
-  130 |     HAL_TIMEx_EnableDeadTimeBreakPreload(&htim8);
+../Core/BSP/Src/LCD_SPFD5420.c:133:5: warning: implicit declaration of function 'HAL_TIMEx_EnableDeadTimeBreakPreload' [-Wimplicit-function-declaration]
+  133 |     HAL_TIMEx_EnableDeadTimeBreakPreload(&htim8);
       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_i2c_gpio.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
-   40 | #define NAND_ERROR                 ((uint8_t)0x01)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_i2c_gpio.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
-  318 | #define NAND_ERROR                 0x00000001UL
-      | 
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_i2c_gpio.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
-   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
-      | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_i2c_gpio.c:7:
-../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
-  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
-      | 
-../Core/BSP/bsp_i2c_gpio.c: In function 'i2c_CheckDevice':
-../Core/BSP/bsp_i2c_gpio.c:25:13: warning: unused variable 'ucAck' [-Wunused-variable]
-   25 |     uint8_t ucAck;
-      |             ^~~~~
-../Core/BSP/bsp_i2c_gpio.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
-   31 | }
-      | ^
-In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_i2c_gpio.c:7:
-At top level:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
-   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
-      |                 ^~~~~~~
-arm-none-eabi-gcc "../Core/BSP/bsp_led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_led.d" -MT"Core/BSP/bsp_led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_led.o"
-../Core/BSP/LCD_SPFD5420.c:131:5: warning: implicit declaration of function 'HAL_TIMEx_EnableCommutationEvent'; did you mean 'HAL_TIMEx_ConfigCommutationEvent'? [-Wimplicit-function-declaration]
-  131 |     HAL_TIMEx_EnableCommutationEvent(&htim8, TIM_COMMUTATION_SOFTWARE);
+../Core/BSP/Src/LCD_SPFD5420.c:134:5: warning: implicit declaration of function 'HAL_TIMEx_EnableCommutationEvent'; did you mean 'HAL_TIMEx_ConfigCommutationEvent'? [-Wimplicit-function-declaration]
+  134 |     HAL_TIMEx_EnableCommutationEvent(&htim8, TIM_COMMUTATION_SOFTWARE);
       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       |     HAL_TIMEx_ConfigCommutationEvent
-../Core/BSP/LCD_SPFD5420.c:63:28: warning: unused variable 'TIM_OCInitStructure' [-Wunused-variable]
-   63 |         TIM_OC_InitTypeDef TIM_OCInitStructure;
+../Core/BSP/Src/LCD_SPFD5420.c:66:28: warning: unused variable 'TIM_OCInitStructure' [-Wunused-variable]
+   66 |         TIM_OC_InitTypeDef TIM_OCInitStructure;
       |                            ^~~~~~~~~~~~~~~~~~~
-../Core/BSP/LCD_SPFD5420.c:62:30: warning: unused variable 'TIM_TimeBaseStructure' [-Wunused-variable]
-   62 |         TIM_Base_InitTypeDef TIM_TimeBaseStructure = {0};
+../Core/BSP/Src/LCD_SPFD5420.c:65:30: warning: unused variable 'TIM_TimeBaseStructure' [-Wunused-variable]
+   65 |         TIM_Base_InitTypeDef TIM_TimeBaseStructure = {0};
       |                              ^~~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc "../Core/BSP/bsp_nand_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_nand_flash.d" -MT"Core/BSP/bsp_nand_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_nand_flash.o"
-arm-none-eabi-gcc "../Core/BSP/bsp_nor_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_nor_flash.d" -MT"Core/BSP/bsp_nor_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_nor_flash.o"
-arm-none-eabi-gcc "../Core/BSP/bsp_ra8875_port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_ra8875_port.d" -MT"Core/BSP/bsp_ra8875_port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_ra8875_port.o"
-arm-none-eabi-gcc "../Core/BSP/bsp_tft_lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_tft_lcd.d" -MT"Core/BSP/bsp_tft_lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_tft_lcd.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_mpu6050.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_mpu6050.d" -MT"Core/BSP/Src/bsp_mpu6050.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_mpu6050.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_key.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_i2c_gpio.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_key.c:7:
+                 from ../Core/BSP/Src/bsp_i2c_gpio.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_key.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_i2c_gpio.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_key.c:7:
+                 from ../Core/BSP/Src/bsp_i2c_gpio.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_key.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+                 from ../Core/BSP/Src/bsp_i2c_gpio.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_led.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_fsmc_sram.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_led.c:7:
+                 from ../Core/BSP/Src/bsp_fsmc_sram.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_led.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_fsmc_sram.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_led.c:7:
+                 from ../Core/BSP/Src/bsp_fsmc_sram.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_led.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+                 from ../Core/BSP/Src/bsp_fsmc_sram.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_nand_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_nand_flash.d" -MT"Core/BSP/Src/bsp_nand_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_nand_flash.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_nor_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_nor_flash.d" -MT"Core/BSP/Src/bsp_nor_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_nor_flash.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_nor_flash.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_key.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nor_flash.c:7:
+                 from ../Core/BSP/Src/bsp_key.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_nor_flash.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_key.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nor_flash.c:7:
+                 from ../Core/BSP/Src/bsp_key.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_nor_flash.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+                 from ../Core/BSP/Src/bsp_key.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_ra8875_port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_ra8875_port.d" -MT"Core/BSP/Src/bsp_ra8875_port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_ra8875_port.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_led.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
+                 from ../Core/BSP/Src/bsp_led.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_led.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
+                 from ../Core/BSP/Src/bsp_led.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
-../Core/BSP/bsp_nand_flash.c:13: warning: "NAND_BUSY" redefined
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_led.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_si4730.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_si4730.d" -MT"Core/BSP/Src/bsp_si4730.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_si4730.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_spi_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_spi_flash.d" -MT"Core/BSP/Src/bsp_spi_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_spi_flash.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_tft_lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_tft_lcd.d" -MT"Core/BSP/Src/bsp_tft_lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_tft_lcd.o"
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_timer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_timer.d" -MT"Core/BSP/Src/bsp_timer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_timer.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_nor_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_nor_flash.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_nor_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_nor_flash.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_ra8875_port.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_ra8875_port.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_ra8875_port.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_ra8875_port.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_nor_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+../Core/BSP/Src/bsp_nand_flash.c:13: warning: "NAND_BUSY" redefined
    13 | #define NAND_BUSY                  ((uint8_t)0x00)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:317: note: this is the location of the previous definition
   317 | #define NAND_BUSY                  0x00000000UL
       | 
-../Core/BSP/bsp_nand_flash.c:14: warning: "NAND_READY" redefined
+../Core/BSP/Src/bsp_nand_flash.c:14: warning: "NAND_READY" redefined
    14 | #define NAND_READY                 ((uint8_t)0x40)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_nand_flash.c:7:
+                 from ../Core/BSP/Src/bsp_nand_flash.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:319: note: this is the location of the previous definition
   319 | #define NAND_READY                 0x00000040UL
       | 
-../Core/BSP/bsp_nand_flash.c: In function 'BSP_FSMC_NAND_Init':
-../Core/BSP/bsp_nand_flash.c:57:5: warning: implicit declaration of function '__HAL_RCC_FMC_CLK_ENABLE'; did you mean 'HAL_RCC_MODULE_ENABLED'? [-Wimplicit-function-declaration]
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_ra8875_port.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+../Core/BSP/Src/bsp_nand_flash.c: In function 'BSP_FSMC_NAND_Init':
+../Core/BSP/Src/bsp_nand_flash.c:57:5: warning: implicit declaration of function '__HAL_RCC_FMC_CLK_ENABLE'; did you mean 'HAL_RCC_MODULE_ENABLED'? [-Wimplicit-function-declaration]
    57 |     __HAL_RCC_FMC_CLK_ENABLE();
       |     ^~~~~~~~~~~~~~~~~~~~~~~~
       |     HAL_RCC_MODULE_ENABLED
-arm-none-eabi-gcc "../Core/BSP/bsp_touch.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp_touch.d" -MT"Core/BSP/bsp_touch.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp_touch.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_ra8875_port.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_spi_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_ra8875_port.c:7:
+                 from ../Core/BSP/Src/bsp_spi_flash.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_ra8875_port.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_spi_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_ra8875_port.c:7:
+                 from ../Core/BSP/Src/bsp_spi_flash.c:7:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_touch.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_touch.d" -MT"Core/BSP/Src/bsp_touch.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_touch.o"
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_ra8875_port.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+                 from ../Core/BSP/Src/bsp_spi_flash.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+arm-none-eabi-gcc "../Core/BSP/Src/bsp_wm8978.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/Src/bsp_wm8978.d" -MT"Core/BSP/Src/bsp_wm8978.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/Src/bsp_wm8978.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_tft_lcd.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_tft_lcd.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_tft_lcd.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_tft_lcd.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+arm-none-eabi-gcc "../Core/BSP/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Core/Src -I../Core/usbh_mass_storage -I../Core/FatFS -I../Core/Fonts -I../Core/Images -I../Core/BSP -I../Core/BSP/Inc -I../Core/BSP/Src -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/BSP/bsp.d" -MT"Core/BSP/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/BSP/bsp.o"
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_timer.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+   40 | #define NAND_ERROR                 ((uint8_t)0x01)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_timer.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
+  318 | #define NAND_ERROR                 0x00000001UL
+      | 
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_timer.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+   41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
+      | 
+In file included from ../Core/Inc/main.h:31,
+                 from ../Core/BSP/bsp.h:28,
+                 from ../Core/BSP/Src/bsp_timer.c:7:
+../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
+  316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
+      | 
+../Core/BSP/Src/bsp_tft_lcd.c: In function 'LCD_FSMCConfig':
+../Core/BSP/Src/bsp_tft_lcd.c:136:5: warning: implicit declaration of function 'FSMC_NORSRAM_EnableBank' [-Wimplicit-function-declaration]
+  136 |     FSMC_NORSRAM_EnableBank(FSMC_NORSRAM_BANK4);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/Src/bsp_tft_lcd.c:7:
+At top level:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_tft_lcd.c:7:
-../Core/BSP/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
+                 from ../Core/BSP/Src/bsp_timer.c:7:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+   65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
+      |                 ^~~~~~~
+In file included from ../Core/BSP/bsp.h:51,
+                 from ../Core/BSP/bsp.c:8:
+../Core/BSP/Inc/bsp_nand_flash.h:40: warning: "NAND_ERROR" redefined
    40 | #define NAND_ERROR                 ((uint8_t)0x01)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_tft_lcd.c:7:
+                 from ../Core/BSP/bsp.c:8:
 ../Core/Inc/stm32f4xx_hal_nand.h:318: note: this is the location of the previous definition
   318 | #define NAND_ERROR                 0x00000001UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_tft_lcd.c:7:
-../Core/BSP/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
+                 from ../Core/BSP/bsp.c:8:
+../Core/BSP/Inc/bsp_nand_flash.h:41: warning: "NAND_TIMEOUT_ERROR" redefined
    41 | #define NAND_TIMEOUT_ERROR         ((uint8_t)0x80)
       | 
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:347,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
+In file included from ../Core/Inc/main.h:31,
                  from ../Core/BSP/bsp.h:28,
-                 from ../Core/BSP/bsp_tft_lcd.c:7:
+                 from ../Core/BSP/bsp.c:8:
 ../Core/Inc/stm32f4xx_hal_nand.h:316: note: this is the location of the previous definition
   316 | #define NAND_TIMEOUT_ERROR         0x00000400UL
       | 
 In file included from ../Core/BSP/bsp.h:51,
-                 from ../Core/BSP/bsp_tft_lcd.c:7:
-../Core/BSP/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
+                 from ../Core/BSP/bsp.c:8:
+../Core/BSP/Inc/bsp_nand_flash.h:65:17: warning: 's_usLUT' defined but not used [-Wunused-variable]
    65 | static uint16_t s_usLUT[NAND_BLOCK_COUNT];
       |                 ^~~~~~~
 arm-none-eabi-gcc -o "FSMC_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\work_code\STM32F407IGT6_media_HAL\FSMC_LCD\STM32F407IGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FSMC_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -787,11 +770,11 @@ Finished building target: FSMC_LCD.elf
 arm-none-eabi-size   FSMC_LCD.elf 
 arm-none-eabi-objdump -h -S  FSMC_LCD.elf  > "FSMC_LCD.list"
    text	   data	    bss	    dec	    hex	filename
-   4748	     20	   1572	   6340	   18c4	FSMC_LCD.elf
+   4388	     20	   1572	   5980	   175c	FSMC_LCD.elf
 Finished building: default.size.stdout
  
 Finished building: FSMC_LCD.list
  
 
-17:59:59 Build Finished. 0 errors, 91 warnings. (took 9s.960ms)
+23:41:01 Build Finished. 0 errors, 92 warnings. (took 11s.691ms)
 

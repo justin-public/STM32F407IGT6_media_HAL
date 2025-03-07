@@ -7,6 +7,11 @@
 
 #include "bsp.h"
 
+void bsp_Init(void)
+{
+    
+}
+
 extern void SaveScreenToBmp(uint16_t _index);
 void bsp_Idle(void)
 {
@@ -17,3 +22,4 @@ void bsp_Idle(void)
         SaveScreenToBmp(s_file_no++);
     }
 }
+
